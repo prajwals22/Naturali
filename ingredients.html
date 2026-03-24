@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Naturali – Ingredients</title>
+  <link rel="stylesheet" href="css/ingredients.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ====== NAVBAR ====== -->
+  <header class="ing-navbar" id="ingNavbar">
+    <div class="ing-nav-inner">
+
+      <!-- Logo -->
+      <a href="index.html" class="ing-logo">
+        <img src="logo/images.png" alt="Naturali" class="ing-logo-img" />
+      </a>
+
+      <!-- Nav Links -->
+      <nav class="ing-nav-links" id="ingNavLinks">
+        <button class="ing-nav-close" id="ingNavClose" aria-label="Close">&#10005;</button>
+
+        <!-- 1. Best Sellers -->
+        <a href="best_sellers.html" class="ing-nav-link ing-plain">Best Sellers</a>
+
+        <!-- 2. New Launches -->
+        <div class="ing-nav-item ing-has-dropdown">
+          <a href="new_launches.html" class="ing-nav-link ing-dropdown-trigger">
+            New Launches <span class="ing-chevron">&#8964;</span>
+          </a>
+          <div class="ing-dropdown">
+            <a href="new_launches.html#hair-serums">Hair Serums</a>
+            <a href="new_launches.html#face-mists">Face Mists</a>
+            <a href="new_launches.html#body-butters">Body Butters</a>
+            <a href="new_launches.html#eye-creams">Eye Creams</a>
+          </div>
+        </div>
+
+        <!-- 3. Hair Care -->
+        <div class="ing-nav-item ing-has-dropdown">
+          <a href="hair-care.html" class="ing-nav-link ing-dropdown-trigger">
+            Hair Care <span class="ing-chevron">&#8964;</span>
+          </a>
+          <div class="ing-dropdown">
+            <a href="hair_care.html#shampoos">Shampoos</a>
+            <a href="hair_care.html#conditioners">Conditioners</a>
+            <a href="hair_care.html#hair-oils">Hair Oils</a>
+            <a href="hair_care.html#hair-masks">Hair Masks</a>
+            <a href="hair_care.html#scalp-care">Scalp Care</a>
+          </div>
+        </div>
+
+        <!-- 4. Skin Care -->
+        <div class="ing-nav-item ing-has-dropdown">
+          <a href="skin_care.html" class="ing-nav-link ing-dropdown-trigger">
+            Skin Care <span class="ing-chevron">&#8964;</span>
+          </a>
+          <div class="ing-dropdown">
+            <a href="skin_care.html#moisturisers">Moisturisers</a>
+            <a href="skin_care.html#serums">Serums</a>
+            <a href="skin_care.html#sunscreens">Sunscreens</a>
+            <a href="skin_care.html#cleansers">Cleansers</a>
+            <a href="skin_care.html#toners">Toners</a>
+          </div>
+        </div>
+
+        <!-- 5. Ingredients -->
+        <div class="ing-nav-item ing-has-dropdown">
+          <a href="ingredients.html" class="ing-nav-link ing-dropdown-trigger">
+            Ingredients <span class="ing-chevron">&#8964;</span>
+          </a>
+          <div class="ing-dropdown">
+            <a href="ingredients.html#rosemary">Rosemary</a>
+            <a href="ingredients.html#ginseng">Ginseng</a>
+            <a href="ingredients.html#biotin">Biotin</a>
+            <a href="ingredients.html#turmeric">Turmeric</a>
+            <a href="ingredients.html#argan-oil">Argan Oil</a>
+          </div>
+        </div>
+
+        <!-- 6. Combos -->
+        <div class="ing-nav-item ing-has-dropdown">
+          <a href="combos.html" class="ing-nav-link ing-dropdown-trigger">
+            Combos <span class="ing-chevron">&#8964;</span>
+          </a>
+          <div class="ing-dropdown">
+            <a href="combos.html#hair-growth-kit">Hair Growth Kit</a>
+            <a href="combos.html#anti-hairfall-set">Anti-Hairfall Set</a>
+            <a href="combos.html#skin-glow-bundle">Skin Glow Bundle</a>
+            <a href="combos.html#complete-care-kit">Complete Care Kit</a>
+          </div>
+        </div>
+
+        <!-- 7. Shop By Concern -->
+        <div class="ing-nav-item ing-has-dropdown">
+          <a href="concerns.html" class="ing-nav-link ing-dropdown-trigger">
+            Shop By Concern <span class="ing-chevron">&#8964;</span>
+          </a>
+          <div class="ing-dropdown">
+            <a href="concerns.html#hair-fall">Hair Fall</a>
+            <a href="concerns.html#dandruff">Dandruff</a>
+            <a href="concerns.html#dry-skin">Dry Skin</a>
+            <a href="concerns.html#oily-skin">Oily Skin</a>
+            <a href="concerns.html#pigmentation">Pigmentation</a>
+          </div>
+        </div>
+
+      </nav>
+
+      <!-- Right side icons -->
+      <div class="ing-nav-right">
+        <button class="ing-search-toggle-btn" id="ingSearchToggle" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <span class="ing-search-label">Search</span>
+        </button>
+
+        <a href="login.html" class="ing-icon-btn" aria-label="Account">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+            <circle cx="12" cy="7" r="4"/>
+            <polygon points="18,2 19.2,5 22,5 19.8,6.8 20.5,10 18,8.2 15.5,10 16.2,6.8 14,5 16.8,5" fill="currentColor" stroke="none"/>
+          </svg>
+        </a>
+
+        <a href="cart.html" class="ing-icon-btn ing-cart-btn" aria-label="Cart">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span class="ing-cart-count" id="ingCartCount"></span>
+        </a>
+
+        <!-- Hamburger (mobile only) -->
+        <button class="ing-hamburger" id="ingHamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Search bar -->
+    <div class="ing-search-bar" id="ingSearchBar">
+      <div class="ing-search-bar-inner">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="ingSearchInput" placeholder="Search for products, ingredients…" autocomplete="off"/>
+        <button id="ingSearchClose" class="ing-search-x" aria-label="Close">&#10005;</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile overlay -->
+  <div class="ing-nav-overlay" id="ingNavOverlay"></div>
+
+  <!-- ====== HERO SLIDER ====== -->
+  <section class="ing-hero" id="ingHeroSlider">
+
+    <!-- SLIDE 1 -->
+    <div class="ing-slide ing-active">
+      <div class="ing-slide-bg ing-herb-bg"></div>
+      <div class="ing-slide-content">
+        <div class="ing-slide-text">
+          <p class="ing-eyebrow">FLAT</p>
+          <h1 class="ing-discount-text">15<sup>%</sup><br>OFF</h1>
+          <p class="ing-offer-line">+ GET A FREEBIE ON ORDERS ABOVE&nbsp; ₹549</p>
+          <a href="best_sellers.html" class="ing-cta-btn ing-dark-btn">SHOP NOW</a>
+        </div>
+        <div class="ing-slide-img">
+          <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=900&q=85" alt="Natural ingredients" />
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 2 -->
+    <div class="ing-slide">
+      <div class="ing-slide-bg ing-gold-bg"></div>
+      <div class="ing-slide-content">
+        <div class="ing-slide-text">
+          <p class="ing-eyebrow">STAR INGREDIENT</p>
+          <h1 class="ing-discount-text" style="color:#4a2c0a;">ROSEMARY<br>&amp;<br>GINSENG</h1>
+          <p class="ing-offer-line">Ancient herbs, modern science — powered for your hair</p>
+          <a href="ingredients.html#rosemary" class="ing-cta-btn ing-gold-btn">EXPLORE NOW</a>
+        </div>
+        <div class="ing-slide-img">
+          <img src="https://images.unsplash.com/photo-1515023115689-589c33041d3c?w=900&q=85" alt="Rosemary and Ginseng" />
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 3 -->
+    <div class="ing-slide">
+      <div class="ing-slide-bg ing-olive-bg"></div>
+      <div class="ing-slide-content">
+        <div class="ing-slide-text">
+          <p class="ing-eyebrow">PURE &amp; POTENT</p>
+          <h1 class="ing-discount-text" style="color:#1a3020;">ARGAN<br>OIL &amp;<br>BIOTIN</h1>
+          <p class="ing-offer-line">Nature's richest nutrients for skin &amp; hair transformation</p>
+          <a href="ingredients.html#argan-oil" class="ing-cta-btn ing-olive-btn">DISCOVER MORE</a>
+        </div>
+        <div class="ing-slide-img">
+          <img src="https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=900&q=85" alt="Argan Oil and Biotin" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Dots -->
+    <div class="ing-slider-dots">
+      <button class="ing-dot ing-dot-active" data-index="0" aria-label="Slide 1"></button>
+      <button class="ing-dot" data-index="1" aria-label="Slide 2"></button>
+      <button class="ing-dot" data-index="2" aria-label="Slide 3"></button>
+    </div>
+
+  </section>
+
+  <!-- ====== INGREDIENTS PRODUCTS SECTION ====== -->
+  <section class="ing-products-section" id="ingProducts">
+    <div class="ing-products-inner">
+
+      <!-- Section Heading -->
+      <div class="ing-products-heading">
+        <h2 class="ing-products-title">
+          <span class="ing-title-bold">Key</span>
+          <span class="ing-title-outline-md">Ingredients</span>
+          <span class="ing-title-outline-lt">Range</span>
+        </h2>
+      </div>
+
+      <!-- Product Grid -->
+      <div class="ing-products-grid">
+
+        <!-- Card 1 -->
+        <div class="ing-prod-card" id="rosemary">
+          <div class="ing-prod-img-wrap">
+            <span class="ing-prod-badge ing-badge-dark">BEST SELLER</span>
+            <img src="images/home page/1.jpg" alt="Rosemary Shampoo" class="ing-prod-img" />
+          </div>
+          <div class="ing-prod-body">
+            <p class="ing-prod-name">Naturali Anti-Hairfall Shampoo with Rosemary, Korean Ginseng &amp; Biotin</p>
+            <div class="ing-prod-rating">
+              <span class="ing-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+              <span class="ing-rating-text">4.64 | 338 reviews</span>
+            </div>
+            <div class="ing-prod-price">
+              <span class="ing-price-label">MRP:</span>
+              <span class="ing-price-current">&#8377;&nbsp;453</span>
+              <span class="ing-price-old">&#8377;533</span>
+              <span class="ing-price-badge">15% OFF</span>
+            </div>
+            <div class="ing-prod-volume">
+              <select class="ing-volume-select" aria-label="Select size">
+                <option>370ML</option>
+                <option>200ML</option>
+                <option>100ML</option>
+              </select>
+            </div>
+            <div class="ing-prod-cart-row">
+              <div class="ing-qty-control">
+                <button class="ing-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                <span class="ing-qty-val">1</span>
+                <button class="ing-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+              </div>
+              <button class="ing-add-to-cart-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="ing-prod-card" id="ginseng">
+          <div class="ing-prod-img-wrap">
+            <span class="ing-prod-badge ing-badge-dark">BEST SELLER</span>
+            <img src="images/home page/2.jpg" alt="Ginseng Hair Oil" class="ing-prod-img" />
+          </div>
+          <div class="ing-prod-body">
+            <p class="ing-prod-name">Naturali Korean Ginseng &amp; Bhringraj Hair Growth Oil for Thick Hair</p>
+            <div class="ing-prod-rating">
+              <span class="ing-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+              <span class="ing-rating-text">4.58 | 921 reviews</span>
+            </div>
+            <div class="ing-prod-price">
+              <span class="ing-price-label">MRP:</span>
+              <span class="ing-price-current">&#8377;&nbsp;374</span>
+              <span class="ing-price-old">&#8377;440</span>
+              <span class="ing-price-badge">15% OFF</span>
+            </div>
+            <div class="ing-prod-volume">
+              <select class="ing-volume-select" aria-label="Select size">
+                <option>200ML</option>
+                <option>100ML</option>
+                <option>50ML</option>
+              </select>
+            </div>
+            <div class="ing-prod-cart-row">
+              <div class="ing-qty-control">
+                <button class="ing-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                <span class="ing-qty-val">1</span>
+                <button class="ing-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+              </div>
+              <button class="ing-add-to-cart-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="ing-prod-card" id="biotin">
+          <div class="ing-prod-img-wrap">
+            <span class="ing-prod-badge ing-badge-amber">TRENDING</span>
+            <img src="images/home page/3.png" alt="Biotin Serum" class="ing-prod-img" />
+          </div>
+          <div class="ing-prod-body">
+            <p class="ing-prod-name">Naturali Biotin &amp; Peptide Hair Serum for Intense Hair Growth &amp; Strength</p>
+            <div class="ing-prod-rating">
+              <span class="ing-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <span class="ing-rating-text">4.89 | 476 reviews</span>
+            </div>
+            <div class="ing-prod-price">
+              <span class="ing-price-label">MRP:</span>
+              <span class="ing-price-current">&#8377;&nbsp;527</span>
+              <span class="ing-price-old">&#8377;620</span>
+              <span class="ing-price-badge">15% OFF</span>
+            </div>
+            <div class="ing-prod-volume">
+              <select class="ing-volume-select" aria-label="Select size">
+                <option>50ML</option>
+                <option>30ML</option>
+              </select>
+            </div>
+            <div class="ing-prod-cart-row">
+              <div class="ing-qty-control">
+                <button class="ing-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                <span class="ing-qty-val">1</span>
+                <button class="ing-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+              </div>
+              <button class="ing-add-to-cart-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="ing-prod-card" id="turmeric">
+          <div class="ing-prod-img-wrap">
+            <span class="ing-prod-badge ing-badge-dark">BEST SELLER</span>
+            <img src="images/home page/4.png" alt="Turmeric Face Cream" class="ing-prod-img" />
+          </div>
+          <div class="ing-prod-body">
+            <p class="ing-prod-name">Naturali Turmeric &amp; Vitamin C Brightening Face Cream for Glow...</p>
+            <div class="ing-prod-rating">
+              <span class="ing-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+              <span class="ing-rating-text">4.71 | 603 reviews</span>
+            </div>
+            <div class="ing-prod-price">
+              <span class="ing-price-label">MRP:</span>
+              <span class="ing-price-current">&#8377;&nbsp;442</span>
+              <span class="ing-price-old">&#8377;520</span>
+              <span class="ing-price-badge">15% OFF</span>
+            </div>
+            <div class="ing-prod-volume">
+              <select class="ing-volume-select" aria-label="Select size">
+                <option>100ML</option>
+                <option>50ML</option>
+                <option>30ML</option>
+              </select>
+            </div>
+            <div class="ing-prod-cart-row">
+              <div class="ing-qty-control">
+                <button class="ing-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                <span class="ing-qty-val">1</span>
+                <button class="ing-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+              </div>
+              <button class="ing-add-to-cart-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /ing-products-grid -->
+    </div><!-- /ing-products-inner -->
+  </section>
+
+  <!-- ====== NEW LAUNCHES SECTION ====== -->
+  <section class="ing-nl-section" id="ingNewLaunches">
+    <div class="ing-nl-inner">
+
+      <!-- Header -->
+      <div class="ing-nl-header">
+        <div class="ing-nl-title-wrap">
+          <h2 class="ing-nl-title">New Launches</h2>
+          <span class="ing-nl-underline"></span>
+        </div>
+        <a href="new_launches.html" class="ing-nl-view-all">VIEW ALL</a>
+      </div>
+
+      <!-- Grid -->
+      <div class="ing-nl-grid">
+
+        <!-- NL Card 1 -->
+        <div class="ing-nl-card" id="argan-oil">
+          <div class="ing-nl-img-wrap">
+            <span class="ing-nl-badge ing-badge-amber">TRENDING</span>
+            <img src="images/home page/1.jpg" alt="Argan Oil Shampoo" class="ing-nl-img" />
+          </div>
+          <div class="ing-nl-body">
+            <p class="ing-nl-name">Naturali Anti-Frizz Shampoo with Argan Oil, Quinoa &amp; Hyaluronic Acid</p>
+            <div class="ing-nl-rating">
+              <span class="ing-nl-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <span class="ing-nl-rating-text">4.97 | 303 reviews</span>
+            </div>
+            <div class="ing-nl-price">
+              <span class="ing-nl-price-label">MRP:</span>
+              <span class="ing-nl-price-current">&#8377;&nbsp;453</span>
+              <span class="ing-nl-price-old">&#8377;533</span>
+              <span class="ing-nl-off-badge">15% OFF</span>
+            </div>
+            <div class="ing-nl-volume">
+              <select class="ing-nl-volume-select" aria-label="Select size">
+                <option>370ML</option>
+                <option>200ML</option>
+              </select>
+            </div>
+            <div class="ing-nl-cart-row">
+              <div class="ing-nl-qty-control">
+                <button class="ing-nl-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                <span class="ing-nl-qty-val">1</span>
+                <button class="ing-nl-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+              </div>
+              <button class="ing-nl-add-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- NL Card 2 -->
+        <div class="ing-nl-card">
+          <div class="ing-nl-img-wrap">
+            <img src="images/home page/2.jpg" alt="Rosemary Scalp Serum" class="ing-nl-img" />
+          </div>
+          <div class="ing-nl-body">
+            <p class="ing-nl-name">Naturali Rosemary &amp; Peppermint Scalp Revitalising Serum for Hair Growth</p>
+            <div class="ing-nl-rating">
+              <span class="ing-nl-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <span class="ing-nl-rating-text">4.86 | 142 reviews</span>
+            </div>
+            <div class="ing-nl-price">
+              <span class="ing-nl-price-label">MRP:</span>
+              <span class="ing-nl-price-current">&#8377;&nbsp;612</span>
+              <span class="ing-nl-price-old">&#8377;720</span>
+              <span class="ing-nl-off-badge">15% OFF</span>
+            </div>
+            <div class="ing-nl-volume">
+              <select class="ing-nl-volume-select" aria-label="Select size">
+                <option>50ML</option>
+                <option>30ML</option>
+              </select>
+            </div>
+            <div class="ing-nl-cart-row">
+              <div class="ing-nl-qty-control">
+                <button class="ing-nl-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                <span class="ing-nl-qty-val">1</span>
+                <button class="ing-nl-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+              </div>
+              <button class="ing-nl-add-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- NL Card 3 -->
+        <div class="ing-nl-card">
+          <div class="ing-nl-img-wrap">
+            <span class="ing-nl-badge ing-badge-navy">NEW LAUNCH</span>
+            <img src="images/home page/3.png" alt="Turmeric Glow Kit" class="ing-nl-img" />
+          </div>
+          <div class="ing-nl-body">
+            <p class="ing-nl-name">Naturali Turmeric Glow Kit – Face Wash + Serum + Sunscreen</p>
+            <div class="ing-nl-rating">
+              <span class="ing-nl-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <span class="ing-nl-rating-text">4.91 | 87 reviews</span>
+            </div>
+            <div class="ing-nl-price">
+              <span class="ing-nl-price-label">MRP:</span>
+              <span class="ing-nl-price-current">&#8377;&nbsp;1,104</span>
+              <span class="ing-nl-price-old">&#8377;1,299</span>
+              <span class="ing-nl-off-badge">15% OFF</span>
+            </div>
+            <div class="ing-nl-volume">
+              <select class="ing-nl-volume-select" aria-label="Select size">
+                <option>Full Size</option>
+                <option>Travel Size</option>
+              </select>
+            </div>
+            <div class="ing-nl-cart-row">
+              <div class="ing-nl-qty-control">
+                <button class="ing-nl-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                <span class="ing-nl-qty-val">1</span>
+                <button class="ing-nl-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+              </div>
+              <button class="ing-nl-add-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- NL Card 4 -->
+        <div class="ing-nl-card">
+          <div class="ing-nl-img-wrap">
+            <img src="images/home page/4.png" alt="Biotin Hair Mask" class="ing-nl-img" />
+          </div>
+          <div class="ing-nl-body">
+            <p class="ing-nl-name">Naturali Biotin &amp; Keratin Deep Repair Hair Mask for Damaged Hair</p>
+            <div class="ing-nl-rating">
+              <span class="ing-nl-stars ing-nl-stars-half">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+              <span class="ing-nl-rating-text">4.77 | 64 reviews</span>
+            </div>
+            <div class="ing-nl-price">
+              <span class="ing-nl-price-label">MRP:</span>
+              <span class="ing-nl-price-current">&#8377;&nbsp;544</span>
+              <span class="ing-nl-price-old">&#8377;640</span>
+              <span class="ing-nl-off-badge">15% OFF</span>
+            </div>
+            <div class="ing-nl-volume">
+              <select class="ing-nl-volume-select" aria-label="Select size">
+                <option>250 G</option>
+                <option>100 G</option>
+              </select>
+            </div>
+            <div class="ing-nl-cart-row">
+              <div class="ing-nl-qty-control">
+                <button class="ing-nl-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                <span class="ing-nl-qty-val">1</span>
+                <button class="ing-nl-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+              </div>
+              <button class="ing-nl-add-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /ing-nl-grid -->
+    </div><!-- /ing-nl-inner -->
+  </section>
+
+  <!-- ====== BENEFITS BANNER ====== -->
+  <section class="ing-benefits-section">
+    <div class="ing-benefits-inner">
+
+      <div class="ing-benefit-item">
+        <div class="ing-benefit-icon">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="52" height="52" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M32 54 C32 54 8 38 8 22 C8 14.3 14 8 21.5 8 C25.5 8 29 10 32 13 C35 10 38.5 8 42.5 8 C50 8 56 14.3 56 22 C56 38 32 54 32 54Z"/>
+            <ellipse cx="26" cy="26" rx="3" ry="4.5"/><ellipse cx="38" cy="26" rx="3" ry="4.5"/>
+            <ellipse cx="26" cy="30" rx="1.2" ry="1.2"/><ellipse cx="38" cy="30" rx="1.2" ry="1.2"/>
+            <path d="M29 35 Q32 37.5 35 35"/>
+            <circle cx="32" cy="34" r="1"/>
+            <line x1="14" y1="13" x2="14" y2="19"/><line x1="11" y1="16" x2="17" y2="16"/>
+            <line x1="48" y1="11" x2="48" y2="17"/><line x1="45" y1="14" x2="51" y2="14"/>
+          </svg>
+        </div>
+        <span class="ing-benefit-label">Cruelty Free</span>
+      </div>
+
+      <div class="ing-benefit-item">
+        <div class="ing-benefit-icon">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="52" height="52" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="32" cy="32" r="22"/><line x1="14.5" y1="49.5" x2="49.5" y2="14.5"/>
+            <path d="M26 16 L26 30 L18 46 L46 46 L38 30 L38 16"/>
+            <line x1="24" y1="22" x2="40" y2="22"/>
+            <circle cx="28" cy="38" r="1.5" fill="#1a1a1a" stroke="none"/>
+            <circle cx="34" cy="41" r="1.5" fill="#1a1a1a" stroke="none"/>
+          </svg>
+        </div>
+        <span class="ing-benefit-label">No Paraben</span>
+      </div>
+
+      <div class="ing-benefit-item">
+        <div class="ing-benefit-icon">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="52" height="52" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="32" cy="32" r="22"/><circle cx="32" cy="32" r="14"/>
+            <text x="32" y="37" text-anchor="middle" font-size="12" font-weight="700" fill="#1a1a1a" stroke="none" font-family="Arial, sans-serif">0%</text>
+            <path d="M32 10 L32 18" stroke-width="2.5"/><path d="M28 14 L32 10 L36 14"/>
+          </svg>
+        </div>
+        <span class="ing-benefit-label">No Mineral Oil</span>
+      </div>
+
+      <div class="ing-benefit-item">
+        <div class="ing-benefit-icon">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="52" height="52" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M24 10 L24 30 L12 50 L52 50 L40 30 L40 10 Z"/>
+            <line x1="21" y1="18" x2="43" y2="18"/>
+            <text x="32" y="44" text-anchor="middle" font-size="10" font-weight="700" fill="#1a1a1a" stroke="none" font-family="Arial, sans-serif">SO</text>
+            <text x="42" y="47" text-anchor="middle" font-size="7" font-weight="700" fill="#1a1a1a" stroke="none" font-family="Arial, sans-serif">2</text>
+            <circle cx="26" cy="36" r="2" fill="#1a1a1a" stroke="none"/>
+            <circle cx="36" cy="39" r="1.5" fill="#1a1a1a" stroke="none"/>
+          </svg>
+        </div>
+        <span class="ing-benefit-label">No Sulphate</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ====== TESTIMONIALS SECTION ====== -->
+  <section class="ing-testi-section" id="ingTestimonials">
+    <div class="ing-testi-inner">
+      <h2 class="ing-testi-heading">Awesome Outcomes</h2>
+      <div class="ing-testi-grid">
+
+        <div class="ing-testi-card">
+          <div class="ing-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="ing-testi-product">Rosemary Hairfall Fix</p>
+          <p class="ing-testi-text">"I've been using the Naturali Rosemary Shampoo for over a year and it gives better results every day. My hairfall has stopped and my hair is visibly softer. Very affordable for these results!"</p>
+          <p class="ing-testi-author">Mahevish</p>
+        </div>
+
+        <div class="ing-testi-card">
+          <div class="ing-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="ing-testi-product">Turmeric Glow – Repurchasing 2nd Time</p>
+          <p class="ing-testi-text">"The Naturali Turmeric face cream is a game changer! My skin looks so much brighter and my dark spots have reduced significantly. The turmeric really works wonders on my skin."</p>
+          <p class="ing-testi-author">Ritika Joshi</p>
+        </div>
+
+        <div class="ing-testi-card">
+          <div class="ing-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="ing-testi-product">Biotin Serum – Best Investment</p>
+          <p class="ing-testi-text">"The Naturali Biotin serum is incredible. I've tried so many products but this one actually delivered. My hair grew noticeably thicker and stronger within just 8 weeks of use!"</p>
+          <p class="ing-testi-author">Deepa Nair</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="ing-site-footer" id="ingFooter">
+
+    <div class="ing-footer-curve"></div>
+
+    <div class="ing-footer-body">
+      <div class="ing-footer-top-row">
+
+        <div class="ing-footer-brand-wrap">
+          <span class="ing-footer-brand-name">Naturali</span>
+          <div class="ing-footer-divider"></div>
+        </div>
+
+        <div class="ing-footer-badge-circle">
+          <svg viewBox="0 0 120 120" width="96" height="96" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="60" cy="60" r="55" stroke="#1a2340" stroke-width="1.5" fill="none"/>
+            <circle cx="60" cy="60" r="46" stroke="#1a2340" stroke-width="1" fill="none"/>
+            <text x="60" y="66" text-anchor="middle" font-size="28" font-weight="900" fill="#1a2340" font-family="Montserrat,sans-serif">N</text>
+            <path id="ingTopArc" d="M 20,60 A 40,40 0 0,1 100,60" fill="none"/>
+            <path id="ingBotArc" d="M 100,60 A 40,40 0 0,1 20,60" fill="none"/>
+            <text font-size="7.5" font-family="Montserrat,sans-serif" fill="#1a2340" font-weight="600" letter-spacing="2.5">
+              <textPath href="#ingTopArc" startOffset="5%">GREAT SCIENCE · GREAT PEOPLE</textPath>
+            </text>
+            <text font-size="7.5" font-family="Montserrat,sans-serif" fill="#1a2340" font-weight="600" letter-spacing="2.5">
+              <textPath href="#ingBotArc" startOffset="5%">GREAT SKIN &amp; HAIR · </textPath>
+            </text>
+          </svg>
+        </div>
+
+      </div>
+
+      <div class="ing-footer-links-grid">
+
+        <div class="ing-footer-col">
+          <p class="ing-footer-col-title">SHOP</p>
+          <a href="best_sellers.html" class="ing-footer-link">Best Sellers</a>
+          <a href="new_launches.html" class="ing-footer-link">New Launches</a>
+          <a href="hair_care.html" class="ing-footer-link">Hair Care</a>
+          <a href="skin_care.html" class="ing-footer-link">Skin Care</a>
+          <a href="ingredients.html" class="ing-footer-link">Ingredients</a>
+          <a href="combos.html" class="ing-footer-link">Combos</a>
+          <a href="concerns.html" class="ing-footer-link">Shop By Concern</a>
+        </div>
+
+        <div class="ing-footer-col">
+          <p class="ing-footer-col-title">BRAND</p>
+          <a href="about.html" class="ing-footer-link">About Us</a>
+          <a href="blog.html" class="ing-footer-link">Blog</a>
+          <a href="refund_policy.html" class="ing-footer-link">Refund policy</a>
+          <a href="terms_of_service.html" class="ing-footer-link">Terms of Service</a>
+          <a href="contact.html" class="ing-footer-link">Contact Us</a>
+        </div>
+
+        <div class="ing-footer-col">
+          <p class="ing-footer-col-title">LEGAL</p>
+          <a href="contact.html" class="ing-footer-link">Contact</a>
+          <a href="privacy_policy.html" class="ing-footer-link">Privacy Policy</a>
+          <a href="refund_policy.html" class="ing-footer-link">Return &amp; Refund Policy</a>
+        </div>
+
+        <div class="ing-footer-col ing-footer-newsletter-col">
+          <p class="ing-footer-newsletter-tagline">Elevate Your Self-Care Routine<br>With Natural Solutions.</p>
+          <div class="ing-footer-newsletter-form">
+            <input type="email" class="ing-footer-email-input" placeholder="YOUR EMAIL" autocomplete="off" />
+            <button class="ing-footer-subscribe-btn">SUBSCRIBE</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="ing-footer-bottom">
+
+        <div class="ing-footer-bottom-group">
+          <p class="ing-footer-bottom-label">SOCIAL</p>
+          <div class="ing-footer-social-icons">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="ing-footer-social-icon">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="ing-footer-social-icon">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="ing-footer-social-icon">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube" class="ing-footer-social-icon">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.96-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#e8e4f0"/></svg>
+            </a>
+            <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="ing-footer-social-icon">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.999 2C6.477 2 2 6.477 2 12c0 1.99.583 3.84 1.585 5.395L2.05 21.9l4.617-1.5A9.96 9.96 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="ing-footer-bottom-divider"></div>
+
+        <div class="ing-footer-bottom-group ing-footer-platforms">
+          <p class="ing-footer-bottom-label">WE'RE AVAILABLE ON</p>
+          <div class="ing-footer-platform-logos">
+            <a href="https://amazon.in" target="_blank" rel="noopener noreferrer" class="ing-platform-logo ing-amazon">amazon</a>
+            <a href="https://flipkart.com" target="_blank" rel="noopener noreferrer" class="ing-platform-logo ing-flipkart">Flipkart</a>
+            <a href="https://purplle.com" target="_blank" rel="noopener noreferrer" class="ing-platform-logo ing-purplle">purplle</a>
+            <a href="https://nykaa.com" target="_blank" rel="noopener noreferrer" class="ing-platform-logo ing-nykaa">NYKAA</a>
+            <a href="https://zepto.com" target="_blank" rel="noopener noreferrer" class="ing-platform-logo ing-zepto">zepto</a>
+            <a href="https://swiggy.com/instamart" target="_blank" rel="noopener noreferrer" class="ing-platform-logo ing-instamart">&#x1F7E0; instamart</a>
+            <a href="https://blinkit.com" target="_blank" rel="noopener noreferrer" class="ing-platform-logo ing-blinkit">blinkit</a>
+            <a href="https://bigbasket.com" target="_blank" rel="noopener noreferrer" class="ing-platform-logo ing-bigbasket">&#x1F7E2; bigbasket</a>
+          </div>
+        </div>
+
+        <div class="ing-footer-bottom-group ing-footer-payment">
+          <p class="ing-footer-bottom-label">PAYMENT METHOD</p>
+          <div class="ing-footer-payment-logos">
+            <span class="ing-pay-logo ing-visa">VISA</span>
+            <span class="ing-pay-logo ing-mastercard">MC</span>
+            <span class="ing-pay-logo ing-rupay">RuPay</span>
+            <span class="ing-pay-logo ing-upi">UPI</span>
+            <span class="ing-pay-logo ing-maestro">Maestro</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="ing-footer-copyright">
+        <hr class="ing-footer-hr" />
+        <p>COPYRIGHT &copy; 2026 NATURALI &nbsp;|&nbsp; ALL RIGHTS RESERVED.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ====== SCROLL TO TOP ====== -->
+  <button class="ing-scroll-top-btn" id="ingScrollTopBtn" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="js/ingredients.js"></script>
+</body>
+</html>

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us – Naturali Natural Hair & Skin Care</title>
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=DM+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- ====== NAVBAR ====== -->
+    <header class="navbar" id="navbar">
+      <div class="nav-inner">
+
+        <!-- Logo -->
+        <a href="index.html" class="logo">
+          <img src="logo/images.png" alt="Naturali" class="logo-img" />
+        </a>
+
+        <!-- Nav Links -->
+        <nav class="nav-links" id="navLinks">
+          <button class="nav-close" id="navClose" aria-label="Close">&#10005;</button>
+
+          <a href="best_sellers.html" class="nav-link plain">Best Sellers</a>
+
+          <div class="nav-item has-dropdown">
+            <a href="new_launches.html" class="nav-link dropdown-trigger">
+              New Launches <span class="chevron">&#8964;</span>
+            </a>
+            <div class="dropdown">
+              <a href="new_launches/hair_serums.html">Hair Serums</a>
+              <a href="new_launches/face_mists.html">Face Mists</a>
+              <a href="new_launches/body_butters.html">Body Butters</a>
+              <a href="new_launches/eye_creams.html">Eye Creams</a>
+            </div>
+          </div>
+
+          <div class="nav-item has-dropdown">
+            <a href="hair-care.html" class="nav-link dropdown-trigger">
+              Hair Care <span class="chevron">&#8964;</span>
+            </a>
+            <div class="dropdown">
+              <a href="hair_care/shampoos.html">Shampoos</a>
+              <a href="hair_care/conditioners.html">Conditioners</a>
+              <a href="hair_care/hair_oils.html">Hair Oils</a>
+              <a href="hair_care/hair_masks.html">Hair Masks</a>
+              <a href="hair_care/scalp_care.html">Scalp Care</a>
+            </div>
+          </div>
+
+          <div class="nav-item has-dropdown">
+            <a href="skin_care.html" class="nav-link dropdown-trigger">
+              Skin Care <span class="chevron">&#8964;</span>
+            </a>
+            <div class="dropdown">
+              <a href="skin_care/moisturisers.html">Moisturisers</a>
+              <a href="skin_care/serums.html">Serums</a>
+              <a href="skin_care/sunscreens.html">Sunscreens</a>
+              <a href="skin_care/cleansers.html">Cleansers</a>
+              <a href="skin_care/toners.html">Toners</a>
+            </div>
+          </div>
+
+          <div class="nav-item has-dropdown">
+            <a href="ingredients.html" class="nav-link dropdown-trigger">
+              Ingredients <span class="chevron">&#8964;</span>
+            </a>
+            <div class="dropdown">
+              <a href="ingredients/rosemary.html">Rosemary</a>
+              <a href="ingredients/ginseng.html">Ginseng</a>
+              <a href="ingredients/biotin.html">Biotin</a>
+              <a href="ingredients/turmeric.html">Turmeric</a>
+              <a href="ingredients/argan_oil.html">Argan Oil</a>
+            </div>
+          </div>
+
+          <div class="nav-item has-dropdown">
+            <a href="combos.html" class="nav-link dropdown-trigger">
+              Combos <span class="chevron">&#8964;</span>
+            </a>
+            <div class="dropdown">
+              <a href="combos/hair_growth_kit.html">Hair Growth Kit</a>
+              <a href="combos/anti_hairfall_set.html">Anti-Hairfall Set</a>
+              <a href="combos/skin_glow_bundle.html">Skin Glow Bundle</a>
+              <a href="combos/complete_care_kit.html">Complete Care Kit</a>
+            </div>
+          </div>
+
+          <div class="nav-item has-dropdown">
+            <a href="concerns.html" class="nav-link dropdown-trigger">
+              Shop By Concern <span class="chevron">&#8964;</span>
+            </a>
+            <div class="dropdown">
+              <a href="concerns/hair_fall.html">Hair Fall</a>
+              <a href="concerns/dandruff.html">Dandruff</a>
+              <a href="concerns/dry_skin.html">Dry Skin</a>
+              <a href="concerns/oily_skin.html">Oily Skin</a>
+              <a href="concerns/pigmentation.html">Pigmentation</a>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Right side icons -->
+        <div class="nav-right">
+          <button class="search-toggle-btn" id="searchToggle" aria-label="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17"
+              fill="none" stroke="currentColor" stroke-width="2"
+              viewBox="0 0 24 24"><circle cx="11" cy="11" r="8" /><line x1="21"
+                y1="21" x2="16.65" y2="16.65" /></svg>
+            <span class="search-label">Search</span>
+          </button>
+
+          <a href="login.html" class="icon-btn" aria-label="Account">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+              fill="none" stroke="currentColor" stroke-width="1.8"
+              viewBox="0 0 24 24">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+              <circle cx="12" cy="7" r="4" />
+              <polygon
+                points="18,2 19.2,5 22,5 19.8,6.8 20.5,10 18,8.2 15.5,10 16.2,6.8 14,5 16.8,5"
+                fill="currentColor" stroke="none" />
+            </svg>
+          </a>
+
+          <button class="icon-btn cart-btn" aria-label="Cart">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+              fill="none" stroke="currentColor" stroke-width="1.8"
+              viewBox="0 0 24 24"><path
+                d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" /><line
+                x1="3" y1="6" x2="21" y2="6" /><path
+                d="M16 10a4 4 0 0 1-8 0" /></svg>
+            <span class="cart-count" id="cartCount"></span>
+          </button>
+
+          <button class="hamburger" id="hamburger" aria-label="Open menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+
+      </div>
+
+      <!-- Search bar -->
+      <div class="search-bar" id="searchBar">
+        <div class="search-bar-inner">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+            fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24"><circle cx="11" cy="11" r="8" /><line x1="21"
+              y1="21" x2="16.65" y2="16.65" /></svg>
+          <input type="text" id="searchInput"
+            placeholder="Search for products, ingredients…"
+            autocomplete="off" />
+          <button id="searchClose" class="search-x" aria-label="Close">&#10005;</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile overlay -->
+    <div class="nav-overlay" id="navOverlay"></div>
+
+    <!-- ====== CONTACT HERO (title + breadcrumb) ====== -->
+    <section class="ct-hero ct-reveal">
+      <h1 class="ct-hero-heading">Contact Us</h1>
+      <nav class="ct-breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="bc-sep">&#8250;</span>
+        <span class="bc-current">Contact Us</span>
+      </nav>
+    </section>
+
+    <!-- ====== CONTACT MAIN ====== -->
+    <section class="ct-section">
+      <div class="ct-inner">
+
+        <!-- LEFT: Contact Form -->
+        <div class="ct-form-col ct-reveal">
+          <h2 class="ct-form-tagline">We would love to hear from you.</h2>
+          <p class="ct-form-sub">
+            If you've got great products you're making or looking to work with us then drop us a line.
+          </p>
+
+          <div class="ct-form-row">
+            <div class="ct-field">
+              <input type="text" id="ctName" class="ct-input" placeholder="Name" autocomplete="name" />
+            </div>
+            <div class="ct-field">
+              <input type="email" id="ctEmail" class="ct-input" placeholder="Email" autocomplete="email" />
+            </div>
+          </div>
+
+          <textarea id="ctMessage" class="ct-textarea" placeholder="Message"></textarea>
+
+          <div class="ct-checkbox-row">
+            <input type="checkbox" id="ctRemember" class="ct-checkbox" />
+            <label for="ctRemember" class="ct-checkbox-label">
+              Save my name, email, and website in this browser for the next time I comment.
+            </label>
+          </div>
+
+          <button class="ct-submit-btn" id="ctSubmitBtn">SUBMIT NOW</button>
+
+          <div class="ct-success" id="ctSuccess">
+            <span class="ct-success-icon">✓</span>
+            Thank you! Your message has been sent. We'll be in touch soon.
+          </div>
+        </div>
+
+        <!-- RIGHT: Info -->
+        <div class="ct-info-col ct-reveal">
+
+          <div class="ct-info-block">
+            <p class="ct-info-title">Address</p>
+            <p class="ct-info-text">
+              Marketed By &amp; Feedback to: Guiltfree Industries Limited,<br>
+              31, N.S. Road Duncan House,<br>
+              Kolkata – 700001
+            </p>
+            <a href="#" class="ct-info-store-link">See Our Stores →</a>
+          </div>
+
+          <div class="ct-info-block">
+            <p class="ct-info-title">Information</p>
+            <a href="tel:18004205525" class="ct-info-link">18004205525</a>
+            <a href="mailto:feedback@naturali.co.in" class="ct-info-link">feedback@naturali.co.in</a>
+          </div>
+
+          <div class="ct-info-block">
+            <p class="ct-info-title">Social Media</p>
+            <div class="ct-social-row">
+              <a href="#" aria-label="Facebook" class="ct-social-icon">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                </svg>
+              </a>
+              <a href="#" aria-label="Instagram" class="ct-social-icon">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                  <circle cx="12" cy="12" r="4"/>
+                  <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/>
+                </svg>
+              </a>
+              <a href="#" aria-label="LinkedIn" class="ct-social-icon">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                  <rect x="2" y="9" width="4" height="12"/>
+                  <circle cx="4" cy="4" r="2"/>
+                </svg>
+              </a>
+              <a href="#" aria-label="YouTube" class="ct-social-icon">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.96-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/>
+                  <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#e0daf0"/>
+                </svg>
+              </a>
+              <a href="#" aria-label="WhatsApp" class="ct-social-icon">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+                  <path d="M11.999 2C6.477 2 2 6.477 2 12c0 1.99.583 3.84 1.585 5.395L2.05 21.9l4.617-1.5A9.96 9.96 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== FOOTER ====== -->
+    <footer class="site-footer" id="footer">
+
+      <div class="footer-curve"></div>
+
+      <div class="footer-body">
+        <div class="footer-top-row">
+
+          <div class="footer-brand-wrap">
+            <span class="footer-brand-name">Naturali</span>
+            <div class="footer-divider"></div>
+          </div>
+
+          <div class="footer-badge-circle">
+            <svg viewBox="0 0 120 120" width="96" height="96" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="60" cy="60" r="55" stroke="#1a2340" stroke-width="1.5" fill="none"/>
+              <circle cx="60" cy="60" r="46" stroke="#1a2340" stroke-width="1" fill="none"/>
+              <text x="60" y="66" text-anchor="middle" font-size="28"
+                font-weight="900" fill="#1a2340" font-family="Montserrat,sans-serif">N</text>
+              <path id="topArc" d="M 20,60 A 40,40 0 0,1 100,60" fill="none"/>
+              <path id="botArc" d="M 100,60 A 40,40 0 0,1 20,60" fill="none"/>
+              <text font-size="7.5" font-family="Montserrat,sans-serif"
+                fill="#1a2340" font-weight="600" letter-spacing="2.5">
+                <textpath href="#topArc" startOffset="5%">GREAT SCIENCE · GREAT PEOPLE</textpath>
+              </text>
+              <text font-size="7.5" font-family="Montserrat,sans-serif"
+                fill="#1a2340" font-weight="600" letter-spacing="2.5">
+                <textpath href="#botArc" startOffset="5%">GREAT SKIN &amp; HAIR · </textpath>
+              </text>
+            </svg>
+          </div>
+
+        </div>
+
+        <div class="footer-links-grid">
+          <div class="footer-col">
+            <p class="footer-col-title">SHOP</p>
+            <a href="#" class="footer-link">Best Sellers</a>
+            <a href="#" class="footer-link">New Launches</a>
+            <a href="#" class="footer-link">Hair Care</a>
+            <a href="#" class="footer-link">Skin Care</a>
+            <a href="#" class="footer-link">Ingredients</a>
+            <a href="#" class="footer-link">Combos</a>
+            <a href="#" class="footer-link">Shop By Concern</a>
+          </div>
+
+          <div class="footer-col">
+            <p class="footer-col-title">BRAND</p>
+            <a href="about.html" class="footer-link">About Us</a>
+            <a href="#" class="footer-link">Blog</a>
+            <a href="#" class="footer-link">Refund policy</a>
+            <a href="terms_of_service.html" class="footer-link">Terms of Service</a>
+            <a href="contact.html" class="footer-link">Contact Us</a>
+          </div>
+
+          <div class="footer-col">
+            <p class="footer-col-title">LEGAL</p>
+            <a href="contact.html" class="footer-link">Contact</a>
+            <a href="#" class="footer-link">Privacy Policy</a>
+            <a href="#" class="footer-link">Return &amp; Refund Policy</a>
+          </div>
+
+          <div class="footer-col footer-newsletter-col">
+            <p class="footer-newsletter-tagline">Elevate Your Self-Care Routine<br>With Natural Solutions.</p>
+            <div class="footer-newsletter-form">
+              <input type="email" class="footer-email-input" placeholder="YOUR EMAIL" autocomplete="off"/>
+              <button class="footer-subscribe-btn">SUBSCRIBE</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+
+          <div class="footer-bottom-group">
+            <p class="footer-bottom-label">SOCIAL</p>
+            <div class="footer-social-icons">
+              <a href="#" aria-label="Facebook" class="footer-social-icon">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              </a>
+              <a href="#" aria-label="Instagram" class="footer-social-icon">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+              </a>
+              <a href="#" aria-label="LinkedIn" class="footer-social-icon">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </a>
+              <a href="#" aria-label="YouTube" class="footer-social-icon">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.96-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#e8e4f0"/></svg>
+              </a>
+              <a href="#" aria-label="WhatsApp" class="footer-social-icon">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.999 2C6.477 2 2 6.477 2 12c0 1.99.583 3.84 1.585 5.395L2.05 21.9l4.617-1.5A9.96 9.96 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-bottom-divider"></div>
+
+          <div class="footer-bottom-group footer-platforms">
+            <p class="footer-bottom-label">WE'RE AVAILABLE ON</p>
+            <div class="footer-platform-logos">
+              <span class="platform-logo amazon">amazon</span>
+              <span class="platform-logo flipkart">Flipkart</span>
+              <span class="platform-logo purplle">purplle</span>
+              <span class="platform-logo nykaa">NYKAA</span>
+              <span class="platform-logo zepto">zepto</span>
+              <span class="platform-logo instamart">&#x1F7E0; instamart</span>
+              <span class="platform-logo blinkit">blinkit</span>
+              <span class="platform-logo bigbasket">&#x1F7E2; bigbasket</span>
+            </div>
+          </div>
+
+          <div class="footer-bottom-group footer-payment">
+            <p class="footer-bottom-label">PAYMENT METHOD</p>
+            <div class="footer-payment-logos">
+              <span class="pay-logo visa">VISA</span>
+              <span class="pay-logo mastercard">MC</span>
+              <span class="pay-logo rupay">RuPay</span>
+              <span class="pay-logo upi">UPI</span>
+              <span class="pay-logo maestro">Maestro</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="footer-copyright">
+          <hr class="footer-hr"/>
+          <p>COPYRIGHT &copy; 2026 NATURALI &nbsp;|&nbsp; ALL RIGHTS RESERVED.</p>
+        </div>
+
+      </div>
+    </footer>
+
+    <!-- ====== SCROLL TO TOP ====== -->
+    <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Back to top">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"
+        stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline
+          points="18 15 12 9 6 15"/></svg>
+    </button>
+
+    <script src="js/contact.js"></script>
+  </body>
+</html>

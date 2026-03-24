@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Naturali – Skin Care</title>
+  <link rel="stylesheet" href="css/skin_care.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ====== NAVBAR ====== -->
+  <header class="sc-navbar" id="scNavbar">
+    <div class="sc-nav-inner">
+
+      <!-- Logo -->
+      <a href="index.html" class="sc-logo">
+        <img src="logo/images.png" alt="Naturali" class="sc-logo-img" />
+      </a>
+
+      <!-- Nav Links -->
+      <nav class="sc-nav-links" id="scNavLinks">
+        <button class="sc-nav-close" id="scNavClose" aria-label="Close">&#10005;</button>
+
+        <!-- 1. Best Sellers -->
+        <a href="best_sellers.html" class="sc-nav-link sc-plain">Best Sellers</a>
+
+        <!-- 2. New Launches -->
+        <div class="sc-nav-item sc-has-dropdown">
+          <a href="new_launches.html" class="sc-nav-link sc-dropdown-trigger">
+            New Launches <span class="sc-chevron">&#8964;</span>
+          </a>
+          <div class="sc-dropdown">
+            <a href="new_launches.html#hair-serums">Hair Serums</a>
+            <a href="new_launches.html#face-mists">Face Mists</a>
+            <a href="new_launches.html#body-butters">Body Butters</a>
+            <a href="new_launches.html#eye-creams">Eye Creams</a>
+          </div>
+        </div>
+
+        <!-- 3. Hair Care -->
+        <div class="sc-nav-item sc-has-dropdown">
+          <a href="hair_care.html" class="sc-nav-link sc-dropdown-trigger">
+            Hair Care <span class="sc-chevron">&#8964;</span>
+          </a>
+          <div class="sc-dropdown">
+            <a href="hair_care.html#shampoos">Shampoos</a>
+            <a href="hair_care.html#conditioners">Conditioners</a>
+            <a href="hair_care.html#hair-oils">Hair Oils</a>
+            <a href="hair_care.html#hair-masks">Hair Masks</a>
+            <a href="hair_care.html#scalp-care">Scalp Care</a>
+          </div>
+        </div>
+
+        <!-- 4. Skin Care -->
+        <div class="sc-nav-item sc-has-dropdown">
+          <a href="skin_care.html" class="sc-nav-link sc-dropdown-trigger">
+            Skin Care <span class="sc-chevron">&#8964;</span>
+          </a>
+          <div class="sc-dropdown">
+            <a href="skin_care.html#moisturisers">Moisturisers</a>
+            <a href="skin_care.html#serums">Serums</a>
+            <a href="skin_care.html#sunscreens">Sunscreens</a>
+            <a href="skin_care.html#cleansers">Cleansers</a>
+            <a href="skin_care.html#toners">Toners</a>
+          </div>
+        </div>
+
+        <!-- 5. Ingredients -->
+        <div class="sc-nav-item sc-has-dropdown">
+          <a href="ingredients.html" class="sc-nav-link sc-dropdown-trigger">
+            Ingredients <span class="sc-chevron">&#8964;</span>
+          </a>
+          <div class="sc-dropdown">
+            <a href="ingredients.html#rosemary">Rosemary</a>
+            <a href="ingredients.html#ginseng">Ginseng</a>
+            <a href="ingredients.html#biotin">Biotin</a>
+            <a href="ingredients.html#turmeric">Turmeric</a>
+            <a href="ingredients.html#argan-oil">Argan Oil</a>
+          </div>
+        </div>
+
+        <!-- 6. Combos -->
+        <div class="sc-nav-item sc-has-dropdown">
+          <a href="combos.html" class="sc-nav-link sc-dropdown-trigger">
+            Combos <span class="sc-chevron">&#8964;</span>
+          </a>
+          <div class="sc-dropdown">
+            <a href="combos.html#hair-growth-kit">Hair Growth Kit</a>
+            <a href="combos.html#anti-hairfall-set">Anti-Hairfall Set</a>
+            <a href="combos.html#skin-glow-bundle">Skin Glow Bundle</a>
+            <a href="combos.html#complete-care-kit">Complete Care Kit</a>
+          </div>
+        </div>
+
+        <!-- 7. Shop By Concern -->
+        <div class="sc-nav-item sc-has-dropdown">
+          <a href="concerns.html" class="sc-nav-link sc-dropdown-trigger">
+            Shop By Concern <span class="sc-chevron">&#8964;</span>
+          </a>
+          <div class="sc-dropdown">
+            <a href="concerns.html#hair-fall">Hair Fall</a>
+            <a href="concerns.html#dandruff">Dandruff</a>
+            <a href="concerns.html#dry-skin">Dry Skin</a>
+            <a href="concerns.html#oily-skin">Oily Skin</a>
+            <a href="concerns.html#pigmentation">Pigmentation</a>
+          </div>
+        </div>
+
+      </nav>
+
+      <!-- Right side icons -->
+      <div class="sc-nav-right">
+        <button class="sc-search-toggle-btn" id="scSearchToggle" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <span class="sc-search-label">Search</span>
+        </button>
+
+        <a href="login.html" class="sc-icon-btn" aria-label="Account">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+            <circle cx="12" cy="7" r="4"/>
+            <polygon points="18,2 19.2,5 22,5 19.8,6.8 20.5,10 18,8.2 15.5,10 16.2,6.8 14,5 16.8,5" fill="currentColor" stroke="none"/>
+          </svg>
+        </a>
+
+        <a href="cart.html" class="sc-icon-btn sc-cart-btn" aria-label="Cart">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span class="sc-cart-count" id="scCartCount"></span>
+        </a>
+
+        <!-- Hamburger (mobile only) -->
+        <button class="sc-hamburger" id="scHamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Search bar -->
+    <div class="sc-search-bar" id="scSearchBar">
+      <div class="sc-search-bar-inner">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="scSearchInput" placeholder="Search for products, ingredients…" autocomplete="off"/>
+        <button id="scSearchClose" class="sc-search-x" aria-label="Close">&#10005;</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile overlay -->
+  <div class="sc-nav-overlay" id="scNavOverlay"></div>
+
+  <!-- ====== HERO SLIDER ====== -->
+  <section class="sc-hero" id="scHeroSlider">
+
+    <!-- SLIDE 1 -->
+    <div class="sc-slide sc-active">
+      <div class="sc-slide-bg sc-rose-bg"></div>
+      <div class="sc-slide-content">
+        <div class="sc-slide-text">
+          <p class="sc-eyebrow">FLAT</p>
+          <h1 class="sc-discount-text">15<sup>%</sup><br>OFF</h1>
+          <p class="sc-offer-line">+ GET A FREEBIE ON ORDERS ABOVE&nbsp; ₹549</p>
+          <a href="best_sellers.html" class="sc-cta-btn sc-dark-btn">SHOP NOW</a>
+        </div>
+        <div class="sc-slide-img">
+          <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?w=900&q=85" alt="Skin care products" />
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 2 -->
+    <div class="sc-slide">
+      <div class="sc-slide-bg sc-peach-bg"></div>
+      <div class="sc-slide-content">
+        <div class="sc-slide-text">
+          <p class="sc-eyebrow">NEW LAUNCH</p>
+          <h1 class="sc-discount-text" style="color:#5c2e1e;">VITAMIN C<br>GLOW<br>SERUM</h1>
+          <p class="sc-offer-line">Brightening formula for radiant, even-toned skin</p>
+          <a href="new_launches.html#face-mists" class="sc-cta-btn sc-peach-btn">EXPLORE NOW</a>
+        </div>
+        <div class="sc-slide-img">
+          <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=900&q=85" alt="Vitamin C Serum" />
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 3 -->
+    <div class="sc-slide">
+      <div class="sc-slide-bg sc-lavender-bg"></div>
+      <div class="sc-slide-content">
+        <div class="sc-slide-text">
+          <p class="sc-eyebrow">BEST SELLER</p>
+          <h1 class="sc-discount-text" style="color:#2a1a40;">SKIN<br>GLOW<br>BUNDLE</h1>
+          <p class="sc-offer-line">Moisturiser + Serum + Sunscreen — complete kit</p>
+          <a href="combos.html#skin-glow-bundle" class="sc-cta-btn sc-lavender-btn">BUY COMBO</a>
+        </div>
+        <div class="sc-slide-img">
+          <img src="https://images.unsplash.com/photo-1612817288484-6f916006741a?w=900&q=85" alt="Skin glow bundle" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Dots -->
+    <div class="sc-slider-dots">
+      <button class="sc-dot sc-dot-active" data-index="0" aria-label="Slide 1"></button>
+      <button class="sc-dot" data-index="1" aria-label="Slide 2"></button>
+      <button class="sc-dot" data-index="2" aria-label="Slide 3"></button>
+    </div>
+
+  </section>
+
+  <!-- ====== SKIN CARE PRODUCTS SECTION ====== -->
+  <section class="sc-products-section" id="scProducts">
+    <div class="sc-products-inner">
+
+      <!-- Section Heading -->
+      <div class="sc-products-heading">
+        <h2 class="sc-products-title">
+          <span class="sc-title-bold">Skin</span>
+          <span class="sc-title-outline-md">Care</span>
+          <span class="sc-title-outline-lt">Range</span>
+        </h2>
+      </div>
+
+      <!-- Product Grid -->
+      <div class="sc-products-grid">
+
+        <!-- Card 1 -->
+        <div class="sc-prod-card" id="moisturisers">
+          <div class="sc-prod-img-wrap">
+            <span class="sc-prod-badge sc-badge-dark">BEST SELLER</span>
+            <img src="images/home page/1.jpg" alt="Vitamin C Moisturiser" class="sc-prod-img" />
+          </div>
+          <div class="sc-prod-body">
+            <p class="sc-prod-name">Naturali Vitamin C Brightening Moisturiser with Niacinamide &amp; Turmeric</p>
+            <div class="sc-prod-rating">
+              <span class="sc-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+              <span class="sc-rating-text">4.72 | 412 reviews</span>
+            </div>
+            <div class="sc-prod-price">
+              <span class="sc-price-label">MRP:</span>
+              <span class="sc-price-current">&#8377;&nbsp;476</span>
+              <span class="sc-price-old">&#8377;560</span>
+              <span class="sc-price-badge">15% OFF</span>
+            </div>
+            <div class="sc-prod-volume">
+              <select class="sc-volume-select" aria-label="Select size">
+                <option>100ML</option>
+                <option>50ML</option>
+                <option>30ML</option>
+              </select>
+            </div>
+            <div class="sc-prod-cart-row">
+              <div class="sc-qty-control">
+                <button class="sc-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                <span class="sc-qty-val">1</span>
+                <button class="sc-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+              </div>
+              <button class="sc-add-to-cart-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="sc-prod-card" id="serums">
+          <div class="sc-prod-img-wrap">
+            <span class="sc-prod-badge sc-badge-dark">BEST SELLER</span>
+            <img src="images/home page/2.jpg" alt="Hyaluronic Acid Serum" class="sc-prod-img" />
+          </div>
+          <div class="sc-prod-body">
+            <p class="sc-prod-name">Naturali 2% Hyaluronic Acid Face Serum with Ceramides &amp; Aloe Vera</p>
+            <div class="sc-prod-rating">
+              <span class="sc-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+              <span class="sc-rating-text">4.68 | 1847 reviews</span>
+            </div>
+            <div class="sc-prod-price">
+              <span class="sc-price-label">MRP:</span>
+              <span class="sc-price-current">&#8377;&nbsp;399</span>
+              <span class="sc-price-old">&#8377;469</span>
+              <span class="sc-price-badge">15% OFF</span>
+            </div>
+            <div class="sc-prod-volume">
+              <select class="sc-volume-select" aria-label="Select size">
+                <option>30ML</option>
+                <option>15ML</option>
+              </select>
+            </div>
+            <div class="sc-prod-cart-row">
+              <div class="sc-qty-control">
+                <button class="sc-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                <span class="sc-qty-val">1</span>
+                <button class="sc-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+              </div>
+              <button class="sc-add-to-cart-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="sc-prod-card" id="sunscreens">
+          <div class="sc-prod-img-wrap">
+            <span class="sc-prod-badge sc-badge-coral">TRENDING</span>
+            <img src="images/home page/3.png" alt="SPF 50 Sunscreen" class="sc-prod-img" />
+          </div>
+          <div class="sc-prod-body">
+            <p class="sc-prod-name">Naturali SPF 50 PA++++ Sunscreen with Zinc Oxide &amp; Green Tea Extract</p>
+            <div class="sc-prod-rating">
+              <span class="sc-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <span class="sc-rating-text">4.91 | 527 reviews</span>
+            </div>
+            <div class="sc-prod-price">
+              <span class="sc-price-label">MRP:</span>
+              <span class="sc-price-current">&#8377;&nbsp;386</span>
+              <span class="sc-price-old">&#8377;454</span>
+              <span class="sc-price-badge">15% OFF</span>
+            </div>
+            <div class="sc-prod-volume">
+              <select class="sc-volume-select" aria-label="Select size">
+                <option>60G</option>
+                <option>30G</option>
+              </select>
+            </div>
+            <div class="sc-prod-cart-row">
+              <div class="sc-qty-control">
+                <button class="sc-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                <span class="sc-qty-val">1</span>
+                <button class="sc-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+              </div>
+              <button class="sc-add-to-cart-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="sc-prod-card" id="cleansers">
+          <div class="sc-prod-img-wrap">
+            <span class="sc-prod-badge sc-badge-dark">BEST SELLER</span>
+            <img src="images/home page/4.png" alt="Gentle Foaming Cleanser" class="sc-prod-img" />
+          </div>
+          <div class="sc-prod-body">
+            <p class="sc-prod-name">Naturali Gentle Foaming Face Wash with Salicylic Acid &amp; Tea Tree...</p>
+            <div class="sc-prod-rating">
+              <span class="sc-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+              <span class="sc-rating-text">4.61 | 698 reviews</span>
+            </div>
+            <div class="sc-prod-price">
+              <span class="sc-price-label">MRP:</span>
+              <span class="sc-price-current">&#8377;&nbsp;306</span>
+              <span class="sc-price-old">&#8377;360</span>
+              <span class="sc-price-badge">15% OFF</span>
+            </div>
+            <div class="sc-prod-volume">
+              <select class="sc-volume-select" aria-label="Select size">
+                <option>150ML</option>
+                <option>75ML</option>
+                <option>30ML</option>
+              </select>
+            </div>
+            <div class="sc-prod-cart-row">
+              <div class="sc-qty-control">
+                <button class="sc-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                <span class="sc-qty-val">1</span>
+                <button class="sc-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+              </div>
+              <button class="sc-add-to-cart-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /sc-products-grid -->
+    </div><!-- /sc-products-inner -->
+  </section>
+
+  <!-- ====== NEW LAUNCHES SECTION ====== -->
+  <section class="sc-nl-section" id="scNewLaunches">
+    <div class="sc-nl-inner">
+
+      <!-- Header -->
+      <div class="sc-nl-header">
+        <div class="sc-nl-title-wrap">
+          <h2 class="sc-nl-title">New Launches</h2>
+          <span class="sc-nl-underline"></span>
+        </div>
+        <a href="new_launches.html" class="sc-nl-view-all">VIEW ALL</a>
+      </div>
+
+      <!-- Grid -->
+      <div class="sc-nl-grid">
+
+        <!-- NL Card 1 -->
+        <div class="sc-nl-card" id="toners">
+          <div class="sc-nl-img-wrap">
+            <span class="sc-nl-badge sc-badge-coral">TRENDING</span>
+            <img src="images/home page/1.jpg" alt="Rose Water Toner" class="sc-nl-img" />
+          </div>
+          <div class="sc-nl-body">
+            <p class="sc-nl-name">Naturali Rose Water Toner with Glycerin &amp; Witch Hazel</p>
+            <div class="sc-nl-rating">
+              <span class="sc-nl-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <span class="sc-nl-rating-text">4.88 | 214 reviews</span>
+            </div>
+            <div class="sc-nl-price">
+              <span class="sc-nl-price-label">MRP:</span>
+              <span class="sc-nl-price-current">&#8377;&nbsp;289</span>
+              <span class="sc-nl-price-old">&#8377;340</span>
+              <span class="sc-nl-off-badge">15% OFF</span>
+            </div>
+            <div class="sc-nl-volume">
+              <select class="sc-nl-volume-select" aria-label="Select size">
+                <option>200ML</option>
+                <option>100ML</option>
+              </select>
+            </div>
+            <div class="sc-nl-cart-row">
+              <div class="sc-nl-qty-control">
+                <button class="sc-nl-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                <span class="sc-nl-qty-val">1</span>
+                <button class="sc-nl-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+              </div>
+              <button class="sc-nl-add-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- NL Card 2 -->
+        <div class="sc-nl-card">
+          <div class="sc-nl-img-wrap">
+            <img src="images/home page/2.jpg" alt="Retinol Night Cream" class="sc-nl-img" />
+          </div>
+          <div class="sc-nl-body">
+            <p class="sc-nl-name">Naturali Retinol Night Repair Cream with Peptides &amp; Squalane</p>
+            <div class="sc-nl-rating">
+              <span class="sc-nl-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <span class="sc-nl-rating-text">4.82 | 96 reviews</span>
+            </div>
+            <div class="sc-nl-price">
+              <span class="sc-nl-price-label">MRP:</span>
+              <span class="sc-nl-price-current">&#8377;&nbsp;578</span>
+              <span class="sc-nl-price-old">&#8377;680</span>
+              <span class="sc-nl-off-badge">15% OFF</span>
+            </div>
+            <div class="sc-nl-volume">
+              <select class="sc-nl-volume-select" aria-label="Select size">
+                <option>50ML</option>
+                <option>30ML</option>
+              </select>
+            </div>
+            <div class="sc-nl-cart-row">
+              <div class="sc-nl-qty-control">
+                <button class="sc-nl-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                <span class="sc-nl-qty-val">1</span>
+                <button class="sc-nl-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+              </div>
+              <button class="sc-nl-add-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- NL Card 3 -->
+        <div class="sc-nl-card">
+          <div class="sc-nl-img-wrap">
+            <span class="sc-nl-badge sc-badge-navy">NEW LAUNCH</span>
+            <img src="images/home page/3.png" alt="Glow Starter Kit" class="sc-nl-img" />
+          </div>
+          <div class="sc-nl-body">
+            <p class="sc-nl-name">Naturali Glow Starter Kit – Cleanser + Toner + Vitamin C Serum</p>
+            <div class="sc-nl-rating">
+              <span class="sc-nl-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <span class="sc-nl-rating-text">4.95 | 73 reviews</span>
+            </div>
+            <div class="sc-nl-price">
+              <span class="sc-nl-price-label">MRP:</span>
+              <span class="sc-nl-price-current">&#8377;&nbsp;952</span>
+              <span class="sc-nl-price-old">&#8377;1,120</span>
+              <span class="sc-nl-off-badge">15% OFF</span>
+            </div>
+            <div class="sc-nl-volume">
+              <select class="sc-nl-volume-select" aria-label="Select size">
+                <option>Full Size</option>
+                <option>Travel Size</option>
+              </select>
+            </div>
+            <div class="sc-nl-cart-row">
+              <div class="sc-nl-qty-control">
+                <button class="sc-nl-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                <span class="sc-nl-qty-val">1</span>
+                <button class="sc-nl-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+              </div>
+              <button class="sc-nl-add-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- NL Card 4 -->
+        <div class="sc-nl-card">
+          <div class="sc-nl-img-wrap">
+            <img src="images/home page/4.png" alt="Clay Face Mask" class="sc-nl-img" />
+          </div>
+          <div class="sc-nl-body">
+            <p class="sc-nl-name">Naturali Kaolin Clay Face Mask with Neem, Charcoal &amp; Turmeric</p>
+            <div class="sc-nl-rating">
+              <span class="sc-nl-stars sc-nl-stars-half">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+              <span class="sc-nl-rating-text">4.69 | 58 reviews</span>
+            </div>
+            <div class="sc-nl-price">
+              <span class="sc-nl-price-label">MRP:</span>
+              <span class="sc-nl-price-current">&#8377;&nbsp;442</span>
+              <span class="sc-nl-price-old">&#8377;520</span>
+              <span class="sc-nl-off-badge">15% OFF</span>
+            </div>
+            <div class="sc-nl-volume">
+              <select class="sc-nl-volume-select" aria-label="Select size">
+                <option>100 G</option>
+                <option>50 G</option>
+              </select>
+            </div>
+            <div class="sc-nl-cart-row">
+              <div class="sc-nl-qty-control">
+                <button class="sc-nl-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                <span class="sc-nl-qty-val">1</span>
+                <button class="sc-nl-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+              </div>
+              <button class="sc-nl-add-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /sc-nl-grid -->
+    </div><!-- /sc-nl-inner -->
+  </section>
+
+  <!-- ====== BENEFITS BANNER ====== -->
+  <section class="sc-benefits-section">
+    <div class="sc-benefits-inner">
+
+      <div class="sc-benefit-item">
+        <div class="sc-benefit-icon">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="52" height="52" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M32 54 C32 54 8 38 8 22 C8 14.3 14 8 21.5 8 C25.5 8 29 10 32 13 C35 10 38.5 8 42.5 8 C50 8 56 14.3 56 22 C56 38 32 54 32 54Z"/>
+            <ellipse cx="26" cy="26" rx="3" ry="4.5"/><ellipse cx="38" cy="26" rx="3" ry="4.5"/>
+            <ellipse cx="26" cy="30" rx="1.2" ry="1.2"/><ellipse cx="38" cy="30" rx="1.2" ry="1.2"/>
+            <path d="M29 35 Q32 37.5 35 35"/>
+            <circle cx="32" cy="34" r="1"/>
+            <line x1="14" y1="13" x2="14" y2="19"/><line x1="11" y1="16" x2="17" y2="16"/>
+            <line x1="48" y1="11" x2="48" y2="17"/><line x1="45" y1="14" x2="51" y2="14"/>
+          </svg>
+        </div>
+        <span class="sc-benefit-label">Cruelty Free</span>
+      </div>
+
+      <div class="sc-benefit-item">
+        <div class="sc-benefit-icon">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="52" height="52" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="32" cy="32" r="22"/><line x1="14.5" y1="49.5" x2="49.5" y2="14.5"/>
+            <path d="M26 16 L26 30 L18 46 L46 46 L38 30 L38 16"/>
+            <line x1="24" y1="22" x2="40" y2="22"/>
+            <circle cx="28" cy="38" r="1.5" fill="#1a1a1a" stroke="none"/>
+            <circle cx="34" cy="41" r="1.5" fill="#1a1a1a" stroke="none"/>
+          </svg>
+        </div>
+        <span class="sc-benefit-label">No Paraben</span>
+      </div>
+
+      <div class="sc-benefit-item">
+        <div class="sc-benefit-icon">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="52" height="52" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="32" cy="32" r="22"/><circle cx="32" cy="32" r="14"/>
+            <text x="32" y="37" text-anchor="middle" font-size="12" font-weight="700" fill="#1a1a1a" stroke="none" font-family="Arial, sans-serif">0%</text>
+            <path d="M32 10 L32 18" stroke-width="2.5"/><path d="M28 14 L32 10 L36 14"/>
+          </svg>
+        </div>
+        <span class="sc-benefit-label">No Mineral Oil</span>
+      </div>
+
+      <div class="sc-benefit-item">
+        <div class="sc-benefit-icon">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="52" height="52" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M24 10 L24 30 L12 50 L52 50 L40 30 L40 10 Z"/>
+            <line x1="21" y1="18" x2="43" y2="18"/>
+            <text x="32" y="44" text-anchor="middle" font-size="10" font-weight="700" fill="#1a1a1a" stroke="none" font-family="Arial, sans-serif">SO</text>
+            <text x="42" y="47" text-anchor="middle" font-size="7" font-weight="700" fill="#1a1a1a" stroke="none" font-family="Arial, sans-serif">2</text>
+            <circle cx="26" cy="36" r="2" fill="#1a1a1a" stroke="none"/>
+            <circle cx="36" cy="39" r="1.5" fill="#1a1a1a" stroke="none"/>
+          </svg>
+        </div>
+        <span class="sc-benefit-label">No Sulphate</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ====== TESTIMONIALS SECTION ====== -->
+  <section class="sc-testi-section" id="scTestimonials">
+    <div class="sc-testi-inner">
+      <h2 class="sc-testi-heading">Awesome Outcomes</h2>
+      <div class="sc-testi-grid">
+
+        <div class="sc-testi-card">
+          <div class="sc-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="sc-testi-product">Vitamin C Glow Serum</p>
+          <p class="sc-testi-text">"My skin has been glowing ever since I started using the Naturali Vitamin C serum. My dark spots have faded significantly after 6 weeks of daily use. Absolutely love it!"</p>
+          <p class="sc-testi-author">Priya Sharma</p>
+        </div>
+
+        <div class="sc-testi-card">
+          <div class="sc-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="sc-testi-product">Hyaluronic Acid Serum – Repurchasing 3rd Time</p>
+          <p class="sc-testi-text">"My skin feels so plump and hydrated after just 2 weeks of using the Naturali Hyaluronic Acid serum. My fine lines look so much softer. This is now a permanent part of my routine!"</p>
+          <p class="sc-testi-author">Ananya Mehta</p>
+        </div>
+
+        <div class="sc-testi-card">
+          <div class="sc-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="sc-testi-product">SPF 50 Sunscreen Daily User</p>
+          <p class="sc-testi-text">"I've tried so many sunscreens but this one doesn't leave a white cast and feels so light! The Naturali SPF 50 is the best sunscreen I've ever used. My skin tone has visibly evened out."</p>
+          <p class="sc-testi-author">Kavita Nair</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="sc-site-footer" id="scFooter">
+
+    <div class="sc-footer-curve"></div>
+
+    <div class="sc-footer-body">
+      <div class="sc-footer-top-row">
+
+        <div class="sc-footer-brand-wrap">
+          <span class="sc-footer-brand-name">Naturali</span>
+          <div class="sc-footer-divider"></div>
+        </div>
+
+        <div class="sc-footer-badge-circle">
+          <svg viewBox="0 0 120 120" width="96" height="96" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="60" cy="60" r="55" stroke="#1a2340" stroke-width="1.5" fill="none"/>
+            <circle cx="60" cy="60" r="46" stroke="#1a2340" stroke-width="1" fill="none"/>
+            <text x="60" y="66" text-anchor="middle" font-size="28" font-weight="900" fill="#1a2340" font-family="Montserrat,sans-serif">N</text>
+            <path id="scTopArc" d="M 20,60 A 40,40 0 0,1 100,60" fill="none"/>
+            <path id="scBotArc" d="M 100,60 A 40,40 0 0,1 20,60" fill="none"/>
+            <text font-size="7.5" font-family="Montserrat,sans-serif" fill="#1a2340" font-weight="600" letter-spacing="2.5">
+              <textPath href="#scTopArc" startOffset="5%">GREAT SCIENCE · GREAT PEOPLE</textPath>
+            </text>
+            <text font-size="7.5" font-family="Montserrat,sans-serif" fill="#1a2340" font-weight="600" letter-spacing="2.5">
+              <textPath href="#scBotArc" startOffset="5%">GREAT SKIN &amp; HAIR · </textPath>
+            </text>
+          </svg>
+        </div>
+
+      </div>
+
+      <div class="sc-footer-links-grid">
+
+        <div class="sc-footer-col">
+          <p class="sc-footer-col-title">SHOP</p>
+          <a href="best_sellers.html" class="sc-footer-link">Best Sellers</a>
+          <a href="new_launches.html" class="sc-footer-link">New Launches</a>
+          <a href="hair_care.html" class="sc-footer-link">Hair Care</a>
+          <a href="skin_care.html" class="sc-footer-link">Skin Care</a>
+          <a href="ingredients.html" class="sc-footer-link">Ingredients</a>
+          <a href="combos.html" class="sc-footer-link">Combos</a>
+          <a href="concerns.html" class="sc-footer-link">Shop By Concern</a>
+        </div>
+
+        <div class="sc-footer-col">
+          <p class="sc-footer-col-title">BRAND</p>
+          <a href="about.html" class="sc-footer-link">About Us</a>
+          <a href="blog.html" class="sc-footer-link">Blog</a>
+          <a href="refund_policy.html" class="sc-footer-link">Refund policy</a>
+          <a href="terms_of_service.html" class="sc-footer-link">Terms of Service</a>
+          <a href="contact.html" class="sc-footer-link">Contact Us</a>
+        </div>
+
+        <div class="sc-footer-col">
+          <p class="sc-footer-col-title">LEGAL</p>
+          <a href="contact.html" class="sc-footer-link">Contact</a>
+          <a href="privacy_policy.html" class="sc-footer-link">Privacy Policy</a>
+          <a href="refund_policy.html" class="sc-footer-link">Return &amp; Refund Policy</a>
+        </div>
+
+        <div class="sc-footer-col sc-footer-newsletter-col">
+          <p class="sc-footer-newsletter-tagline">Elevate Your Self-Care Routine<br>With Natural Solutions.</p>
+          <div class="sc-footer-newsletter-form">
+            <input type="email" class="sc-footer-email-input" placeholder="YOUR EMAIL" autocomplete="off" />
+            <button class="sc-footer-subscribe-btn">SUBSCRIBE</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="sc-footer-bottom">
+
+        <div class="sc-footer-bottom-group">
+          <p class="sc-footer-bottom-label">SOCIAL</p>
+          <div class="sc-footer-social-icons">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="sc-footer-social-icon">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="sc-footer-social-icon">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="sc-footer-social-icon">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube" class="sc-footer-social-icon">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.96-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#e8e4f0"/></svg>
+            </a>
+            <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="sc-footer-social-icon">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.999 2C6.477 2 2 6.477 2 12c0 1.99.583 3.84 1.585 5.395L2.05 21.9l4.617-1.5A9.96 9.96 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="sc-footer-bottom-divider"></div>
+
+        <div class="sc-footer-bottom-group sc-footer-platforms">
+          <p class="sc-footer-bottom-label">WE'RE AVAILABLE ON</p>
+          <div class="sc-footer-platform-logos">
+            <a href="https://amazon.in" target="_blank" rel="noopener noreferrer" class="sc-platform-logo sc-amazon">amazon</a>
+            <a href="https://flipkart.com" target="_blank" rel="noopener noreferrer" class="sc-platform-logo sc-flipkart">Flipkart</a>
+            <a href="https://purplle.com" target="_blank" rel="noopener noreferrer" class="sc-platform-logo sc-purplle">purplle</a>
+            <a href="https://nykaa.com" target="_blank" rel="noopener noreferrer" class="sc-platform-logo sc-nykaa">NYKAA</a>
+            <a href="https://zepto.com" target="_blank" rel="noopener noreferrer" class="sc-platform-logo sc-zepto">zepto</a>
+            <a href="https://swiggy.com/instamart" target="_blank" rel="noopener noreferrer" class="sc-platform-logo sc-instamart">&#x1F7E0; instamart</a>
+            <a href="https://blinkit.com" target="_blank" rel="noopener noreferrer" class="sc-platform-logo sc-blinkit">blinkit</a>
+            <a href="https://bigbasket.com" target="_blank" rel="noopener noreferrer" class="sc-platform-logo sc-bigbasket">&#x1F7E2; bigbasket</a>
+          </div>
+        </div>
+
+        <div class="sc-footer-bottom-group sc-footer-payment">
+          <p class="sc-footer-bottom-label">PAYMENT METHOD</p>
+          <div class="sc-footer-payment-logos">
+            <span class="sc-pay-logo sc-visa">VISA</span>
+            <span class="sc-pay-logo sc-mastercard">MC</span>
+            <span class="sc-pay-logo sc-rupay">RuPay</span>
+            <span class="sc-pay-logo sc-upi">UPI</span>
+            <span class="sc-pay-logo sc-maestro">Maestro</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="sc-footer-copyright">
+        <hr class="sc-footer-hr" />
+        <p>COPYRIGHT &copy; 2026 NATURALI &nbsp;|&nbsp; ALL RIGHTS RESERVED.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ====== SCROLL TO TOP ====== -->
+  <button class="sc-scroll-top-btn" id="scScrollTopBtn" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="js/skin_care.js"></script>
+</body>
+</html>

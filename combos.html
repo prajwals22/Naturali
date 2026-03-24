@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Combos – Naturali Natural Hair & Skin Care</title>
+    <link rel="stylesheet" href="css/combos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=DM+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- ====== NAVBAR ====== -->
+    <header class="navbar" id="navbar">
+      <div class="nav-inner">
+
+        <!-- Logo -->
+        <a href="index.html" class="logo">
+          <img src="logo/images.png" alt="Naturali" class="logo-img" />
+        </a>
+
+        <!-- Nav Links -->
+        <nav class="nav-links" id="navLinks">
+          <button class="nav-close" id="navClose" aria-label="Close">&#10005;</button>
+
+          <a href="best_sellers.html" class="nav-link plain">Best Sellers</a>
+
+          <div class="nav-item has-dropdown">
+            <a href="new_launches.html" class="nav-link dropdown-trigger">
+              New Launches <span class="chevron">&#8964;</span>
+            </a>
+            <div class="dropdown">
+              <a href="new_launches/hair_serums.html">Hair Serums</a>
+              <a href="new_launches/face_mists.html">Face Mists</a>
+              <a href="new_launches/body_butters.html">Body Butters</a>
+              <a href="new_launches/eye_creams.html">Eye Creams</a>
+            </div>
+          </div>
+
+          <div class="nav-item has-dropdown">
+            <a href="hair-care.html" class="nav-link dropdown-trigger">
+              Hair Care <span class="chevron">&#8964;</span>
+            </a>
+            <div class="dropdown">
+              <a href="hair_care/shampoos.html">Shampoos</a>
+              <a href="hair_care/conditioners.html">Conditioners</a>
+              <a href="hair_care/hair_oils.html">Hair Oils</a>
+              <a href="hair_care/hair_masks.html">Hair Masks</a>
+              <a href="hair_care/scalp_care.html">Scalp Care</a>
+            </div>
+          </div>
+
+          <div class="nav-item has-dropdown">
+            <a href="skin_care.html" class="nav-link dropdown-trigger">
+              Skin Care <span class="chevron">&#8964;</span>
+            </a>
+            <div class="dropdown">
+              <a href="skin_care/moisturisers.html">Moisturisers</a>
+              <a href="skin_care/serums.html">Serums</a>
+              <a href="skin_care/sunscreens.html">Sunscreens</a>
+              <a href="skin_care/cleansers.html">Cleansers</a>
+              <a href="skin_care/toners.html">Toners</a>
+            </div>
+          </div>
+
+          <div class="nav-item has-dropdown">
+            <a href="ingredients.html" class="nav-link dropdown-trigger">
+              Ingredients <span class="chevron">&#8964;</span>
+            </a>
+            <div class="dropdown">
+              <a href="ingredients/rosemary.html">Rosemary</a>
+              <a href="ingredients/ginseng.html">Ginseng</a>
+              <a href="ingredients/biotin.html">Biotin</a>
+              <a href="ingredients/turmeric.html">Turmeric</a>
+              <a href="ingredients/argan_oil.html">Argan Oil</a>
+            </div>
+          </div>
+
+          <div class="nav-item has-dropdown">
+            <a href="combos.html" class="nav-link dropdown-trigger active-nav">
+              Combos <span class="chevron">&#8964;</span>
+            </a>
+            <div class="dropdown">
+              <a href="combos/hair_growth_kit.html">Hair Growth Kit</a>
+              <a href="combos/anti_hairfall_set.html">Anti-Hairfall Set</a>
+              <a href="combos/skin_glow_bundle.html">Skin Glow Bundle</a>
+              <a href="combos/complete_care_kit.html">Complete Care Kit</a>
+            </div>
+          </div>
+
+          <div class="nav-item has-dropdown">
+            <a href="concerns.html" class="nav-link dropdown-trigger">
+              Shop By Concern <span class="chevron">&#8964;</span>
+            </a>
+            <div class="dropdown">
+              <a href="concerns/hair_fall.html">Hair Fall</a>
+              <a href="concerns/dandruff.html">Dandruff</a>
+              <a href="concerns/dry_skin.html">Dry Skin</a>
+              <a href="concerns/oily_skin.html">Oily Skin</a>
+              <a href="concerns/pigmentation.html">Pigmentation</a>
+            </div>
+          </div>
+
+        </nav>
+
+        <!-- Right side icons -->
+        <div class="nav-right">
+          <button class="search-toggle-btn" id="searchToggle" aria-label="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <span class="search-label">Search</span>
+          </button>
+
+          <a href="login.html" class="icon-btn" aria-label="Account">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+              <circle cx="12" cy="7" r="4"/>
+              <polygon points="18,2 19.2,5 22,5 19.8,6.8 20.5,10 18,8.2 15.5,10 16.2,6.8 14,5 16.8,5" fill="currentColor" stroke="none"/>
+            </svg>
+          </a>
+
+          <button class="icon-btn cart-btn" aria-label="Cart">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+            <span class="cart-count" id="cartCount"></span>
+          </button>
+
+          <button class="hamburger" id="hamburger" aria-label="Open menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+
+      </div>
+
+      <!-- Search bar -->
+      <div class="search-bar" id="searchBar">
+        <div class="search-bar-inner">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="searchInput" placeholder="Search for products, ingredients…" autocomplete="off"/>
+          <button id="searchClose" class="search-x" aria-label="Close">&#10005;</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile overlay -->
+    <div class="nav-overlay" id="navOverlay"></div>
+
+    <!-- ====== COMBOS HERO BANNER ====== -->
+    <section class="combos-hero">
+      <div class="combos-hero-bg"></div>
+      <div class="combos-hero-inner">
+        <div class="combos-hero-text">
+          <span class="combos-eyebrow">SAVE MORE WITH</span>
+          <h1 class="combos-hero-title">
+            <span class="combo-word-solid">Power</span>
+            <span class="combo-word-outline-md">Packed</span>
+            <span class="combo-word-outline-lt">Combos</span>
+          </h1>
+          <p class="combos-hero-sub">Complete care routines handpicked by experts. Get more, spend less — up to <strong>25% OFF</strong> on kits.</p>
+          <div class="combos-hero-pills">
+            <a href="#hair-combos" class="combo-pill active-pill">Hair Care</a>
+            <a href="#skin-combos" class="combo-pill">Skin Care</a>
+            <a href="#complete-combos" class="combo-pill">Complete Kits</a>
+          </div>
+        </div>
+        <div class="combos-hero-visual">
+          <div class="combo-badge-ring">
+            <svg viewBox="0 0 180 180" width="180" height="180" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="90" cy="90" r="84" stroke="rgba(12,26,53,0.15)" stroke-width="1.5" fill="rgba(255,255,255,0.6)"/>
+              <circle cx="90" cy="90" r="70" stroke="rgba(12,26,53,0.1)" stroke-width="1" fill="none"/>
+              <text x="90" y="82" text-anchor="middle" font-size="13" font-weight="800" fill="#0c1a35" font-family="Montserrat,sans-serif">UPTO</text>
+              <text x="90" y="108" text-anchor="middle" font-size="38" font-weight="900" fill="#0c1a35" font-family="Montserrat,sans-serif">25%</text>
+              <text x="90" y="128" text-anchor="middle" font-size="12" font-weight="700" fill="#9a8040" font-family="Montserrat,sans-serif">OFF ON COMBOS</text>
+            </svg>
+          </div>
+          <img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=700&q=85" alt="Naturali Combo Kit" class="combos-hero-img"/>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== FILTER BAR ====== -->
+    <div class="combo-filter-bar" id="comboFilterBar">
+      <div class="combo-filter-inner">
+        <button class="combo-filter-btn active-filter" data-filter="all">All Combos</button>
+        <button class="combo-filter-btn" data-filter="hair">Hair Care</button>
+        <button class="combo-filter-btn" data-filter="skin">Skin Care</button>
+        <button class="combo-filter-btn" data-filter="complete">Complete Kits</button>
+        <button class="combo-filter-btn" data-filter="bestseller">Best Sellers</button>
+      </div>
+    </div>
+
+    <!-- ====== COMBOS SECTION — HAIR CARE ====== -->
+    <section class="combo-section" id="hair-combos">
+      <div class="combo-section-inner">
+
+        <div class="combo-section-header">
+          <div class="combo-section-title-wrap">
+            <h2 class="combo-section-title">Hair Care Combos</h2>
+            <span class="combo-section-underline"></span>
+          </div>
+          <a href="combos/hair_care_combos.html" class="combo-view-all">VIEW ALL</a>
+        </div>
+
+        <div class="combo-grid" data-section="hair">
+
+          <!-- Combo Card 1 -->
+          <div class="combo-card" data-category="hair bestseller">
+            <div class="combo-img-wrap">
+              <span class="combo-badge badge-dark">BEST SELLER</span>
+              <span class="combo-save-tag">SAVE ₹150</span>
+              <img src="images/home page/1.jpg" alt="Anti-Hairfall Starter Kit" class="combo-img"/>
+              <div class="combo-products-count">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+                3 Products
+              </div>
+            </div>
+            <div class="combo-body">
+              <p class="combo-name">Anti-Hairfall Starter Kit – Shampoo + Conditioner + Serum</p>
+              <div class="combo-includes">
+                <span class="combo-includes-label">Includes:</span>
+                <span class="combo-includes-items">Shampoo 370ml · Conditioner 180ml · Serum 50ml</span>
+              </div>
+              <div class="combo-rating">
+                <span class="combo-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <span class="combo-rating-text">4.82 | 512 reviews</span>
+              </div>
+              <div class="combo-price">
+                <span class="combo-price-label">MRP:</span>
+                <span class="combo-price-current">&#8377;&nbsp;899</span>
+                <span class="combo-price-old">&#8377;1,049</span>
+                <span class="combo-off-badge">15% OFF</span>
+              </div>
+              <div class="combo-cart-row">
+                <div class="combo-qty-control">
+                  <button class="combo-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                  <span class="combo-qty-val">1</span>
+                  <button class="combo-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+                </div>
+                <button class="combo-add-btn">ADD TO CART</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Combo Card 2 -->
+          <div class="combo-card" data-category="hair">
+            <div class="combo-img-wrap">
+              <span class="combo-badge badge-teal">TRENDING</span>
+              <span class="combo-save-tag">SAVE ₹199</span>
+              <img src="images/home page/2.jpg" alt="Rosemary Hair Growth Kit" class="combo-img"/>
+              <div class="combo-products-count">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+                4 Products
+              </div>
+            </div>
+            <div class="combo-body">
+              <p class="combo-name">Rosemary Hair Growth Kit – Shampoo + Oil + Mask + Scalp Serum</p>
+              <div class="combo-includes">
+                <span class="combo-includes-label">Includes:</span>
+                <span class="combo-includes-items">Shampoo 370ml · Hair Oil 100ml · Mask 250g · Serum 30ml</span>
+              </div>
+              <div class="combo-rating">
+                <span class="combo-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <span class="combo-rating-text">4.91 | 284 reviews</span>
+              </div>
+              <div class="combo-price">
+                <span class="combo-price-label">MRP:</span>
+                <span class="combo-price-current">&#8377;&nbsp;1,199</span>
+                <span class="combo-price-old">&#8377;1,398</span>
+                <span class="combo-off-badge">14% OFF</span>
+              </div>
+              <div class="combo-cart-row">
+                <div class="combo-qty-control">
+                  <button class="combo-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                  <span class="combo-qty-val">1</span>
+                  <button class="combo-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+                </div>
+                <button class="combo-add-btn">ADD TO CART</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Combo Card 3 -->
+          <div class="combo-card" data-category="hair bestseller">
+            <div class="combo-img-wrap">
+              <span class="combo-badge badge-dark">BEST SELLER</span>
+              <span class="combo-save-tag">SAVE ₹185</span>
+              <img src="images/home page/3.png" alt="Anti-Frizz Duo" class="combo-img"/>
+              <div class="combo-products-count">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+                2 Products
+              </div>
+            </div>
+            <div class="combo-body">
+              <p class="combo-name">Anti-Frizz Power Duo – Shampoo + Conditioner with Argan Oil</p>
+              <div class="combo-includes">
+                <span class="combo-includes-label">Includes:</span>
+                <span class="combo-includes-items">Shampoo 370ml · Conditioner 180ml</span>
+              </div>
+              <div class="combo-rating">
+                <span class="combo-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <span class="combo-rating-text">4.97 | 421 reviews</span>
+              </div>
+              <div class="combo-price">
+                <span class="combo-price-label">MRP:</span>
+                <span class="combo-price-current">&#8377;&nbsp;699</span>
+                <span class="combo-price-old">&#8377;884</span>
+                <span class="combo-off-badge">21% OFF</span>
+              </div>
+              <div class="combo-cart-row">
+                <div class="combo-qty-control">
+                  <button class="combo-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                  <span class="combo-qty-val">1</span>
+                  <button class="combo-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+                </div>
+                <button class="combo-add-btn">ADD TO CART</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Combo Card 4 -->
+          <div class="combo-card" data-category="hair">
+            <div class="combo-badge-new-launch-wrap">
+              <span class="combo-badge badge-navy">NEW LAUNCH</span>
+            </div>
+            <div class="combo-img-wrap">
+              <img src="images/home page/4.png" alt="Onion Hairfall Control Set" class="combo-img"/>
+              <div class="combo-products-count">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+                3 Products
+              </div>
+            </div>
+            <div class="combo-body">
+              <p class="combo-name">Onion Hairfall Control Set – Shampoo + Oil + Mask</p>
+              <div class="combo-includes">
+                <span class="combo-includes-label">Includes:</span>
+                <span class="combo-includes-items">Shampoo 370ml · Onion Oil 100ml · Hair Mask 250g</span>
+              </div>
+              <div class="combo-rating">
+                <span class="combo-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                <span class="combo-rating-text">4.68 | 193 reviews</span>
+              </div>
+              <div class="combo-price">
+                <span class="combo-price-label">MRP:</span>
+                <span class="combo-price-current">&#8377;&nbsp;1,047</span>
+                <span class="combo-price-old">&#8377;1,232</span>
+                <span class="combo-off-badge">15% OFF</span>
+              </div>
+              <div class="combo-cart-row">
+                <div class="combo-qty-control">
+                  <button class="combo-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                  <span class="combo-qty-val">1</span>
+                  <button class="combo-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+                </div>
+                <button class="combo-add-btn">ADD TO CART</button>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /combo-grid hair -->
+      </div>
+    </section>
+
+    <!-- ====== COMBO HIGHLIGHT BANNER ====== -->
+    <section class="combo-highlight-banner">
+      <div class="combo-highlight-inner">
+        <div class="combo-highlight-text">
+          <span class="combo-highlight-eyebrow">WHY CHOOSE COMBOS?</span>
+          <h3 class="combo-highlight-title">Handcrafted for Your Hair & Skin Goals</h3>
+          <p class="combo-highlight-desc">Every combo is curated by dermatologists and trichologists to work synergistically — you get better results when the right products are used together.</p>
+        </div>
+        <div class="combo-highlight-stats">
+          <div class="combo-stat">
+            <span class="combo-stat-num">3×</span>
+            <span class="combo-stat-label">Better Results Together</span>
+          </div>
+          <div class="combo-stat-divider"></div>
+          <div class="combo-stat">
+            <span class="combo-stat-num">25%</span>
+            <span class="combo-stat-label">Average Savings</span>
+          </div>
+          <div class="combo-stat-divider"></div>
+          <div class="combo-stat">
+            <span class="combo-stat-num">50K+</span>
+            <span class="combo-stat-label">Happy Customers</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== COMBOS SECTION — SKIN CARE ====== -->
+    <section class="combo-section combo-section-alt" id="skin-combos">
+      <div class="combo-section-inner">
+
+        <div class="combo-section-header">
+          <div class="combo-section-title-wrap">
+            <h2 class="combo-section-title">Skin Care Combos</h2>
+            <span class="combo-section-underline combo-underline-skin"></span>
+          </div>
+          <a href="combos/skin_care_combos.html" class="combo-view-all">VIEW ALL</a>
+        </div>
+
+        <div class="combo-grid" data-section="skin">
+
+          <!-- Skin Combo Card 1 -->
+          <div class="combo-card" data-category="skin bestseller">
+            <div class="combo-img-wrap">
+              <span class="combo-badge badge-dark">BEST SELLER</span>
+              <span class="combo-save-tag combo-save-skin">SAVE ₹120</span>
+              <img src="images/home page/1.jpg" alt="Skin Glow Starter Bundle" class="combo-img"/>
+              <div class="combo-products-count">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+                3 Products
+              </div>
+            </div>
+            <div class="combo-body">
+              <p class="combo-name">Skin Glow Starter Bundle – Cleanser + Serum + Moisturiser</p>
+              <div class="combo-includes">
+                <span class="combo-includes-label">Includes:</span>
+                <span class="combo-includes-items">Cleanser 100ml · Vitamin C Serum 30ml · Moisturiser 50ml</span>
+              </div>
+              <div class="combo-rating">
+                <span class="combo-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <span class="combo-rating-text">4.88 | 347 reviews</span>
+              </div>
+              <div class="combo-price">
+                <span class="combo-price-label">MRP:</span>
+                <span class="combo-price-current">&#8377;&nbsp;749</span>
+                <span class="combo-price-old">&#8377;869</span>
+                <span class="combo-off-badge">14% OFF</span>
+              </div>
+              <div class="combo-cart-row">
+                <div class="combo-qty-control">
+                  <button class="combo-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                  <span class="combo-qty-val">1</span>
+                  <button class="combo-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+                </div>
+                <button class="combo-add-btn">ADD TO CART</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skin Combo Card 2 -->
+          <div class="combo-card" data-category="skin">
+            <div class="combo-img-wrap">
+              <span class="combo-badge badge-teal">TRENDING</span>
+              <span class="combo-save-tag combo-save-skin">SAVE ₹230</span>
+              <img src="images/home page/2.jpg" alt="Turmeric Glow Bundle" class="combo-img"/>
+              <div class="combo-products-count">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+                4 Products
+              </div>
+            </div>
+            <div class="combo-body">
+              <p class="combo-name">Turmeric Glow Bundle – Cleanser + Toner + Serum + Sunscreen</p>
+              <div class="combo-includes">
+                <span class="combo-includes-label">Includes:</span>
+                <span class="combo-includes-items">Cleanser 100ml · Toner 100ml · Serum 30ml · SPF 50 50g</span>
+              </div>
+              <div class="combo-rating">
+                <span class="combo-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                <span class="combo-rating-text">4.74 | 218 reviews</span>
+              </div>
+              <div class="combo-price">
+                <span class="combo-price-label">MRP:</span>
+                <span class="combo-price-current">&#8377;&nbsp;1,099</span>
+                <span class="combo-price-old">&#8377;1,329</span>
+                <span class="combo-off-badge">17% OFF</span>
+              </div>
+              <div class="combo-cart-row">
+                <div class="combo-qty-control">
+                  <button class="combo-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                  <span class="combo-qty-val">1</span>
+                  <button class="combo-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+                </div>
+                <button class="combo-add-btn">ADD TO CART</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skin Combo Card 3 -->
+          <div class="combo-card" data-category="skin bestseller">
+            <div class="combo-img-wrap">
+              <span class="combo-badge badge-dark">BEST SELLER</span>
+              <span class="combo-save-tag combo-save-skin">SAVE ₹160</span>
+              <img src="images/home page/3.png" alt="Hydration Booster Duo" class="combo-img"/>
+              <div class="combo-products-count">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+                2 Products
+              </div>
+            </div>
+            <div class="combo-body">
+              <p class="combo-name">Hydration Booster Duo – Hyaluronic Serum + Deep Moisturiser</p>
+              <div class="combo-includes">
+                <span class="combo-includes-label">Includes:</span>
+                <span class="combo-includes-items">HA Serum 30ml · Night Moisturiser 50ml</span>
+              </div>
+              <div class="combo-rating">
+                <span class="combo-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <span class="combo-rating-text">4.93 | 389 reviews</span>
+              </div>
+              <div class="combo-price">
+                <span class="combo-price-label">MRP:</span>
+                <span class="combo-price-current">&#8377;&nbsp;699</span>
+                <span class="combo-price-old">&#8377;859</span>
+                <span class="combo-off-badge">19% OFF</span>
+              </div>
+              <div class="combo-cart-row">
+                <div class="combo-qty-control">
+                  <button class="combo-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                  <span class="combo-qty-val">1</span>
+                  <button class="combo-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+                </div>
+                <button class="combo-add-btn">ADD TO CART</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skin Combo Card 4 -->
+          <div class="combo-card" data-category="skin">
+            <div class="combo-img-wrap">
+              <span class="combo-badge badge-navy">NEW LAUNCH</span>
+              <img src="images/home page/4.png" alt="Anti-Pigmentation Kit" class="combo-img"/>
+              <div class="combo-products-count">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+                3 Products
+              </div>
+            </div>
+            <div class="combo-body">
+              <p class="combo-name">Anti-Pigmentation Kit – Niacinamide Serum + Sunscreen + Toner</p>
+              <div class="combo-includes">
+                <span class="combo-includes-label">Includes:</span>
+                <span class="combo-includes-items">Niacinamide 30ml · SPF 50+ 50g · Toner 100ml</span>
+              </div>
+              <div class="combo-rating">
+                <span class="combo-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                <span class="combo-rating-text">4.61 | 142 reviews</span>
+              </div>
+              <div class="combo-price">
+                <span class="combo-price-label">MRP:</span>
+                <span class="combo-price-current">&#8377;&nbsp;899</span>
+                <span class="combo-price-old">&#8377;1,059</span>
+                <span class="combo-off-badge">15% OFF</span>
+              </div>
+              <div class="combo-cart-row">
+                <div class="combo-qty-control">
+                  <button class="combo-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                  <span class="combo-qty-val">1</span>
+                  <button class="combo-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+                </div>
+                <button class="combo-add-btn">ADD TO CART</button>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /combo-grid skin -->
+      </div>
+    </section>
+
+    <!-- ====== COMPLETE CARE KITS — FEATURED WIDE SECTION ====== -->
+    <section class="combo-complete-section" id="complete-combos">
+      <div class="combo-complete-inner">
+
+        <div class="combo-section-header">
+          <div class="combo-section-title-wrap">
+            <h2 class="combo-section-title" style="color:#fff;">Complete Care Kits</h2>
+            <span class="combo-section-underline combo-underline-white"></span>
+          </div>
+          <a href="combos/complete_care_kit.html" class="combo-view-all combo-view-all-light">VIEW ALL</a>
+        </div>
+
+        <div class="combo-complete-grid">
+
+          <!-- Featured Wide Card -->
+          <div class="combo-complete-card combo-complete-featured">
+            <div class="combo-complete-img-wrap">
+              <span class="combo-badge badge-gold">PREMIUM</span>
+              <span class="combo-save-tag combo-save-premium">SAVE ₹499</span>
+              <img src="images/home page/1.jpg" alt="Ultimate Hair & Skin Complete Kit" class="combo-complete-img"/>
+            </div>
+            <div class="combo-complete-body">
+              <p class="combo-complete-eyebrow">⭐ EDITOR'S CHOICE</p>
+              <p class="combo-complete-name">Ultimate Hair & Skin Complete Care Kit</p>
+              <p class="combo-complete-desc">The all-in-one solution. Covers every step of your hair and skin care routine, curated by our in-house experts for maximum results.</p>
+              <div class="combo-complete-includes">
+                <span class="combo-tag">Shampoo</span>
+                <span class="combo-tag">Conditioner</span>
+                <span class="combo-tag">Hair Oil</span>
+                <span class="combo-tag">Hair Mask</span>
+                <span class="combo-tag">Serum</span>
+                <span class="combo-tag">Moisturiser</span>
+                <span class="combo-tag">Sunscreen</span>
+                <span class="combo-tag">+2 More</span>
+              </div>
+              <div class="combo-complete-rating">
+                <span class="combo-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <span class="combo-rating-text">4.95 | 1,204 reviews</span>
+              </div>
+              <div class="combo-complete-price-row">
+                <div class="combo-price">
+                  <span class="combo-price-label">MRP:</span>
+                  <span class="combo-price-current" style="font-size:1.15rem;">&#8377;&nbsp;1,999</span>
+                  <span class="combo-price-old">&#8377;2,498</span>
+                  <span class="combo-off-badge combo-off-large">20% OFF</span>
+                </div>
+              </div>
+              <div class="combo-cart-row combo-cart-wide">
+                <div class="combo-qty-control">
+                  <button class="combo-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                  <span class="combo-qty-val">1</span>
+                  <button class="combo-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+                </div>
+                <button class="combo-add-btn combo-add-featured">ADD TO CART</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Regular complete card 1 -->
+          <div class="combo-complete-card">
+            <div class="combo-complete-img-wrap">
+              <span class="combo-badge badge-dark">BEST SELLER</span>
+              <img src="images/home page/2.jpg" alt="Hair Growth Complete Kit" class="combo-complete-img"/>
+            </div>
+            <div class="combo-complete-body">
+              <p class="combo-complete-name">Hair Growth Complete Kit</p>
+              <div class="combo-complete-includes">
+                <span class="combo-tag">Shampoo</span>
+                <span class="combo-tag">Oil</span>
+                <span class="combo-tag">Scalp Serum</span>
+                <span class="combo-tag">Supplement</span>
+              </div>
+              <div class="combo-complete-rating">
+                <span class="combo-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <span class="combo-rating-text">4.87 | 672 reviews</span>
+              </div>
+              <div class="combo-price" style="margin-bottom:14px;">
+                <span class="combo-price-label">MRP:</span>
+                <span class="combo-price-current">&#8377;&nbsp;1,499</span>
+                <span class="combo-price-old">&#8377;1,749</span>
+                <span class="combo-off-badge">14% OFF</span>
+              </div>
+              <div class="combo-cart-row">
+                <div class="combo-qty-control">
+                  <button class="combo-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                  <span class="combo-qty-val">1</span>
+                  <button class="combo-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+                </div>
+                <button class="combo-add-btn">ADD TO CART</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Regular complete card 2 -->
+          <div class="combo-complete-card">
+            <div class="combo-complete-img-wrap">
+              <span class="combo-badge badge-teal">TRENDING</span>
+              <img src="images/home page/3.png" alt="Skin Glow Complete Bundle" class="combo-complete-img"/>
+            </div>
+            <div class="combo-complete-body">
+              <p class="combo-complete-name">Skin Glow Complete Bundle</p>
+              <div class="combo-complete-includes">
+                <span class="combo-tag">Cleanser</span>
+                <span class="combo-tag">Toner</span>
+                <span class="combo-tag">Serum</span>
+                <span class="combo-tag">Moisturiser</span>
+                <span class="combo-tag">Sunscreen</span>
+              </div>
+              <div class="combo-complete-rating">
+                <span class="combo-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <span class="combo-rating-text">4.79 | 445 reviews</span>
+              </div>
+              <div class="combo-price" style="margin-bottom:14px;">
+                <span class="combo-price-label">MRP:</span>
+                <span class="combo-price-current">&#8377;&nbsp;1,299</span>
+                <span class="combo-price-old">&#8377;1,529</span>
+                <span class="combo-off-badge">15% OFF</span>
+              </div>
+              <div class="combo-cart-row">
+                <div class="combo-qty-control">
+                  <button class="combo-qty-btn" data-action="minus" aria-label="Decrease">&#8722;</button>
+                  <span class="combo-qty-val">1</span>
+                  <button class="combo-qty-btn" data-action="plus" aria-label="Increase">&#43;</button>
+                </div>
+                <button class="combo-add-btn">ADD TO CART</button>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /combo-complete-grid -->
+      </div>
+    </section>
+
+    <!-- ====== BENEFITS BANNER ====== -->
+    <section class="benefits-section">
+      <div class="benefits-inner">
+        <div class="benefit-item">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="52" height="52" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M32 54 C32 54 8 38 8 22 C8 14.3 14 8 21.5 8 C25.5 8 29 10 32 13 C35 10 38.5 8 42.5 8 C50 8 56 14.3 56 22 C56 38 32 54 32 54Z"/>
+              <ellipse cx="26" cy="26" rx="3" ry="4.5"/>
+              <ellipse cx="38" cy="26" rx="3" ry="4.5"/>
+              <ellipse cx="26" cy="30" rx="1.2" ry="1.2"/>
+              <ellipse cx="38" cy="30" rx="1.2" ry="1.2"/>
+              <path d="M29 35 Q32 37.5 35 35"/>
+              <circle cx="32" cy="34" r="1"/>
+              <line x1="14" y1="13" x2="14" y2="19"/><line x1="11" y1="16" x2="17" y2="16"/>
+              <line x1="48" y1="11" x2="48" y2="17"/><line x1="45" y1="14" x2="51" y2="14"/>
+            </svg>
+          </div>
+          <span class="benefit-label">Cruelty Free</span>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="52" height="52" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="32" cy="32" r="22"/>
+              <line x1="14.5" y1="49.5" x2="49.5" y2="14.5"/>
+              <path d="M26 16 L26 30 L18 46 L46 46 L38 30 L38 16"/>
+              <line x1="24" y1="22" x2="40" y2="22"/>
+              <circle cx="28" cy="38" r="1.5" fill="#1a1a1a" stroke="none"/>
+              <circle cx="34" cy="41" r="1.5" fill="#1a1a1a" stroke="none"/>
+            </svg>
+          </div>
+          <span class="benefit-label">No Paraben</span>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="52" height="52" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="32" cy="32" r="22"/>
+              <circle cx="32" cy="32" r="14"/>
+              <text x="32" y="37" text-anchor="middle" font-size="12" font-weight="700" fill="#1a1a1a" stroke="none" font-family="Arial, sans-serif">0%</text>
+              <path d="M32 10 L32 18" stroke-width="2.5"/>
+              <path d="M28 14 L32 10 L36 14"/>
+            </svg>
+          </div>
+          <span class="benefit-label">No Mineral Oil</span>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="52" height="52" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M24 10 L24 30 L12 50 L52 50 L40 30 L40 10 Z"/>
+              <line x1="21" y1="18" x2="43" y2="18"/>
+              <text x="32" y="44" text-anchor="middle" font-size="10" font-weight="700" fill="#1a1a1a" stroke="none" font-family="Arial, sans-serif">SO</text>
+              <text x="42" y="47" text-anchor="middle" font-size="7" font-weight="700" fill="#1a1a1a" stroke="none" font-family="Arial, sans-serif">2</text>
+              <circle cx="26" cy="36" r="2" fill="#1a1a1a" stroke="none"/>
+              <circle cx="36" cy="39" r="1.5" fill="#1a1a1a" stroke="none"/>
+            </svg>
+          </div>
+          <span class="benefit-label">No Sulphate</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== TESTIMONIALS SECTION ====== -->
+    <section class="testi-section" id="testimonials">
+      <div class="testi-inner">
+        <h2 class="testi-heading">Awesome Outcomes</h2>
+        <div class="testi-grid">
+          <div class="testi-card">
+            <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="testi-product">Anti-Hairfall Starter Kit</p>
+            <p class="testi-text">"Got the combo and honestly worth every rupee. The shampoo, conditioner and serum together worked way better than using just the shampoo alone. My hairfall reduced within 3 weeks!"</p>
+            <p class="testi-author">Priya K.</p>
+          </div>
+          <div class="testi-card">
+            <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="testi-product">Skin Glow Complete Bundle</p>
+            <p class="testi-text">"My skin has never looked better. The full routine combo is so convenient and the products genuinely work together. Highly recommend to anyone wanting an easy skincare upgrade!"</p>
+            <p class="testi-author">Ananya M.</p>
+          </div>
+          <div class="testi-card">
+            <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="testi-product">Ultimate Complete Care Kit</p>
+            <p class="testi-text">"This kit is a game changer. I saved so much compared to buying individually and the results are visible! My friends keep asking what I'm using. The quality is phenomenal."</p>
+            <p class="testi-author">Ravi S.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== FOOTER ====== -->
+    <footer class="site-footer" id="footer">
+      <div class="footer-curve"></div>
+      <div class="footer-body">
+        <div class="footer-top-row">
+          <div class="footer-brand-wrap">
+            <span class="footer-brand-name">Naturali</span>
+            <div class="footer-divider"></div>
+          </div>
+          <div class="footer-badge-circle">
+            <svg viewBox="0 0 120 120" width="96" height="96" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="60" cy="60" r="55" stroke="#1a2340" stroke-width="1.5" fill="none"/>
+              <circle cx="60" cy="60" r="46" stroke="#1a2340" stroke-width="1" fill="none"/>
+              <text x="60" y="66" text-anchor="middle" font-size="28" font-weight="900" fill="#1a2340" font-family="Montserrat,sans-serif">N</text>
+              <path id="topArc" d="M 20,60 A 40,40 0 0,1 100,60" fill="none"/>
+              <path id="botArc" d="M 100,60 A 40,40 0 0,1 20,60" fill="none"/>
+              <text font-size="7.5" font-family="Montserrat,sans-serif" fill="#1a2340" font-weight="600" letter-spacing="2.5">
+                <textpath href="#topArc" startOffset="5%">GREAT SCIENCE · GREAT PEOPLE</textpath>
+              </text>
+              <text font-size="7.5" font-family="Montserrat,sans-serif" fill="#1a2340" font-weight="600" letter-spacing="2.5">
+                <textpath href="#botArc" startOffset="5%">GREAT SKIN &amp; HAIR · </textpath>
+              </text>
+            </svg>
+          </div>
+        </div>
+
+        <div class="footer-links-grid">
+          <div class="footer-col">
+            <p class="footer-col-title">SHOP</p>
+            <a href="#" class="footer-link">Best Sellers</a>
+            <a href="#" class="footer-link">New Launches</a>
+            <a href="#" class="footer-link">Hair Care</a>
+            <a href="#" class="footer-link">Skin Care</a>
+            <a href="#" class="footer-link">Ingredients</a>
+            <a href="#" class="footer-link">Combos</a>
+            <a href="#" class="footer-link">Shop By Concern</a>
+          </div>
+          <div class="footer-col">
+            <p class="footer-col-title">BRAND</p>
+            <a href="about.html" class="footer-link">About Us</a>
+            <a href="#" class="footer-link">Blog</a>
+            <a href="#" class="footer-link">Refund policy</a>
+            <a href="terms_of_service.html" class="footer-link">Terms of Service</a>
+            <a href="contact.html" class="footer-link">Contact Us</a>
+          </div>
+          <div class="footer-col">
+            <p class="footer-col-title">LEGAL</p>
+            <a href="#" class="footer-link">Contact</a>
+            <a href="#" class="footer-link">Privacy Policy</a>
+            <a href="#" class="footer-link">Return &amp; Refund Policy</a>
+          </div>
+          <div class="footer-col footer-newsletter-col">
+            <p class="footer-newsletter-tagline">Elevate Your Self-Care Routine<br>With Natural Solutions.</p>
+            <div class="footer-newsletter-form">
+              <input type="email" class="footer-email-input" placeholder="YOUR EMAIL" autocomplete="off"/>
+              <button class="footer-subscribe-btn">SUBSCRIBE</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-bottom-group">
+            <p class="footer-bottom-label">SOCIAL</p>
+            <div class="footer-social-icons">
+              <a href="#" aria-label="Facebook" class="footer-social-icon">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              </a>
+              <a href="#" aria-label="Instagram" class="footer-social-icon">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+              </a>
+              <a href="#" aria-label="YouTube" class="footer-social-icon">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.96-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#e8e4f0"/></svg>
+              </a>
+              <a href="#" aria-label="WhatsApp" class="footer-social-icon">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.999 2C6.477 2 2 6.477 2 12c0 1.99.583 3.84 1.585 5.395L2.05 21.9l4.617-1.5A9.96 9.96 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="footer-bottom-divider"></div>
+          <div class="footer-bottom-group footer-platforms">
+            <p class="footer-bottom-label">WE'RE AVAILABLE ON</p>
+            <div class="footer-platform-logos">
+              <span class="platform-logo amazon">amazon</span>
+              <span class="platform-logo flipkart">Flipkart</span>
+              <span class="platform-logo purplle">purplle</span>
+              <span class="platform-logo nykaa">NYKAA</span>
+              <span class="platform-logo zepto">zepto</span>
+              <span class="platform-logo blinkit">blinkit</span>
+            </div>
+          </div>
+          <div class="footer-bottom-group footer-payment">
+            <p class="footer-bottom-label">PAYMENT METHOD</p>
+            <div class="footer-payment-logos">
+              <span class="pay-logo visa">VISA</span>
+              <span class="pay-logo mastercard">MC</span>
+              <span class="pay-logo rupay">RuPay</span>
+              <span class="pay-logo upi">UPI</span>
+              <span class="pay-logo maestro">Maestro</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-copyright">
+          <hr class="footer-hr"/>
+          <p>COPYRIGHT &copy; 2026 NATURALI &nbsp;|&nbsp; ALL RIGHTS RESERVED.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ====== SCROLL TO TOP ====== -->
+    <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Back to top">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
+
+    <script src="js/combos.js"></script>
+  </body>
+</html>
